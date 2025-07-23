@@ -95,6 +95,9 @@ This demo features an interactive, game-like guided tutorial designed to onboard
 ## Confidentiality Notice
 Due to the proprietary nature of the underlying dataset and specific implementation details, the project's code and raw data are confidential and cannot be publicly shared.
 
+## For Developers
+For technical details on the project structure, setup, and how to run the code, please see the [developer README here](./bank-fraud-detection-project/README.md).
+
 ## Future Directions
 
 Building upon the current system, potential future enhancements for this project include:

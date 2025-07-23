@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bank_fraud"
+version = "0.0.1"
+description = "This project developed a comprehensive and scalable bank fraud detection system designed to enhance the efficiency and accuracy of fraud identification. It integrates advanced analytical models with intuitive visualization tools to prioritize alerts and uncover complex fraud networks. This capstone project was developed in collaboration with a Data Scientist mentor from the financial industry, drawing insights from real-world banking challenges while focusing on a proof-of-concept for academic purposes."
+authors = [
+  { name = "Michael Joshua Vargas" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["bank_fraud"]
+include = ["pyproject.toml", "bank_fraud/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["bank_fraud"]
+force-sort-within-sections = true
+
