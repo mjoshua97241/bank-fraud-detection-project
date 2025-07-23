@@ -250,7 +250,7 @@ df.shape
 # ## Step 7: Save to cleaned parquet file
 file_name = 'cleaned_combined_eft_data.parquet'
 
-df.to_parquet(r"E:\Personal\Full_Stack_Data_Analyst\Data_Science\Eskwelabs\Capstone Project\01_Code_Notebooks\01_Capstone_Project\data\interim\cleaned_combined_eft_data.parquet")
+df.to_parquet(r"...\data\interim\cleaned_combined_eft_data.parquet")
 
 print('Data cleaning process completed successfully.')
 print('Data saved to: ', file_name)
