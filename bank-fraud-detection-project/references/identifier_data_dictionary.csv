@@ -1,0 +1,10 @@
+feature_name,data_type,description,null_count,unique_count,total_count,uniqueness_ratio,duplicate_count,is_primary_key
+profile_id,object,Unique customer identifier for linking account activities and fraud investigations,0,1073778,1073778,1.0,0,True
+account_no,object,Primary account number for transaction tracking and customer identification,0,1073778,1073778,1.0,0,True
+full_name,object,Customer full name for identity verification and compliance reporting,0,1073390,1073778,0.9996386590151782,388,False
+username,object,Digital platform username indicating online banking engagement level,0,1073778,1073778,1.0,0,True
+gr_card_no,object,Debit/credit card information indicating payment method preferences and fraud vectors,0,1073162,1073778,0.9994263246220355,616,False
+cellphone,object,Registered mobile number for customer contact and SMS-based authentication,0,1073778,1073778,1.0,0,True
+account_number,object,Categorical information for account number supporting qualitative risk analysis,0,428229,1073778,0.3988058984259316,645549,False
+source_account_number,object,Categorical information for source account number supporting qualitative risk analysis,0,264096,1073778,0.24595028022552148,809682,False
+destination_account_number,object,Categorical information for destination account number supporting qualitative risk analysis,0,221439,1073778,0.20622419159267558,852339,False
