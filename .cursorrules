@@ -1,0 +1,39 @@
+# Project Intelligence (.cursorrules)
+
+## Critical implementation paths
+
+*   `bank-fraud-detection-project/bank_fraud/config.py`: Centralized configuration and path management.
+*   `bank-fraud-detection-project/bank_fraud/utils/data_dictionary_generator.py`: Utility for generating data dictionaries.
+*   `bank-fraud-detection-project/notebooks/1.0-mjv-initial-data-exploration.ipynb`: Primary notebook for initial data exploration.
+
+## User preferences and workflow
+
+*   **Path Display:** Prefer relative paths starting from `bank-fraud-detection-project/` when possible.
+*   **Memory Bank:** Utilize the `memory_bank/` directory for project context files.
+*   **Jupyter Notebooks:** Expect to work with `.ipynb` files for analysis and development.
+*   **Agent Persona:** Approach tasks as an expert data scientist with over 20 years of experience, focusing on best practices, efficiency, and robust solutions.
+*   **Jupyter Notebook Workflow:**
+    *   **Reading:** Read `.ipynb` files directly to understand their content.
+    *   **Editing/Writing:** Only modify the `.py` version of the notebook. The user will manually update the `.ipynb` file.
+*   **Data Visualization:** Apply principles from Cole Nussbaumer Knaflic's "Storytelling with Data" to create clear, concise, and impactful visualizations, especially concerning the effective use of color palettes.
+
+## Project-specific patterns
+
+*   **Cookiecutter Data Science:** Adherence to its structure and principles.
+*   **Dynamic Path Resolution:** Use `Path(__file__).resolve().parents` for robust path handling.
+
+## Known challenges
+
+*   Windows `mkdir` command behavior.
+*   Ensuring consistency between configured paths and actual file locations.
+
+## Evolution of project decisions
+
+*   Transitioned to a structured Memory Bank system for improved context management.
+*   Adjusted path configurations to resolve `FileNotFoundError` and align with actual file locations.
+*   Adopted `nbconvert` strategy for robust `.ipynb` file interaction.
+
+## Tool usage patterns
+
+*   Frequent use of `read_file`, `write_file`, `list_directory`, `search_file_content` for understanding and modifying the codebase.
+*   `run_shell_command` for directory creation and other shell operations.

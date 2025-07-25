@@ -11,9 +11,9 @@ The solution employs a dual-model approach:
 1.  **Fraud Scorecard Model:** Utilizes machine learning to assign risk scores to transactions, enabling high-confidence auto-blocking and intelligent prioritization of alerts for human review.
 2.  **Interactive Network Analysis Dashboard:** Visualizes relationships between accounts and transactions, allowing analysts to quickly identify and investigate complex fraud clusters that are difficult to detect manually.
 
-## Prediction Horizon
+## Prediction Horizon & Data Scope
 
-The primary objective of this project is to build a predictive model for early fraud detection. Consequently, we have defined the target variable's prediction window (e.g., 'time to event' or 'survival') to be greater than 7 days and less than 60 days. This specific timeframe is chosen to provide sufficient lead time for intervention while maintaining relevance for an 'early' detection system.
+The primary objective of this project is to build a predictive model for **early fraud detection**. Consequently, we have defined the target variable's prediction window (e.g., 'time to event' or 'survival') to be greater than 7 days and less than 60 days. This specific timeframe is chosen to provide sufficient lead time for intervention while maintaining relevance for an 'early' detection system. This project exclusively utilizes an account dataset from **January 2025 to May 2025**. This specific timeframe is chosen because fraud behaviors are constantly evolving. Focusing on recent data ensures our early detection model learns from the most relevant and up-to-date behavioral characteristics, as older datasets may not accurately reflect current fraud patterns.
 
 ## Key Features & Innovations: Skills Demonstrated
 These features highlight the core data science and engineering skills applied in this project:
