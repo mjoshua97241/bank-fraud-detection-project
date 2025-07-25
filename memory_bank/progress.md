@@ -23,7 +23,8 @@
 ## Current status
 
 *   **Setup Phase:** Core project structure, documentation, and agent configuration are in place.
-*   **Data Understanding:** Focus is currently on understanding the raw data through data dictionaries, initial exploration, and survival days analysis/visualization. Preparing for data filtering.
+*   **Data Understanding:** Focus is currently on understanding the raw data through data dictionaries, initial exploration, and survival days analysis/visualization. **Data filtering completed.**
+*   **Visualization Refinement:** Ongoing efforts to improve clarity and adherence to data storytelling principles in visualizations (e.g., `dna_final_tag` distribution, survival days buckets).
 
 ## Known issues
 

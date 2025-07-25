@@ -4,7 +4,7 @@
 
 *   Integrating the Memory Bank system into the workflow.
 *   Refining data dictionary generation and access.
-*   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.ipynb`, including zero-imputation, data dictionary generation, `dna_final_tag` distribution analysis, survival days visualization (with known minor display issue), and preparing for filtering.
+*   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.ipynb`, including zero-imputation, data dictionary generation, **completed data filtering**, and ongoing refinement of `dna_final_tag` distribution and survival days visualizations.
 *   Adopting a new Jupyter Notebook workflow: read `.ipynb`, edit `.py`.
 
 ## Recent changes
