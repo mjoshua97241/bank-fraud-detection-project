@@ -6,6 +6,7 @@
 *   Refining data dictionary generation and access.
 *   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.ipynb`, including zero-imputation, data dictionary generation, **completed data filtering**, and ongoing refinement of `dna_final_tag` distribution and survival days visualizations.
 *   Adopting a new Jupyter Notebook workflow: read `.ipynb`, edit `.py`.
+*   **Completed IV and WoE calculation code for categorical features.**
 
 ## Recent changes
 
@@ -15,10 +16,12 @@
 *   Created `data_dictionary_explanation.md` for Jupyter Notebook.
 *   Moved `eda_checklist.md` to `notebooks/to_be_deleted/`.
 *   Updated `.cursorrules` with agent persona.
+*   **Created `iv_calculation.py` in `notebooks/to_be_deleted/` for categorical IV/WoE calculation.**
 
 ## Next steps
 
 *   Continue initial data loading and exploration in `1.0-mjv-initial-data-exploration.ipynb`.
+*   **Prepare for IV analysis of numerical features, where specific binning definitions will be provided by the user.**
 *   (Outline immediate next steps)
 
 ## Active decisions and considerations
@@ -28,3 +31,5 @@
 *   Ensuring consistent application of the expert data scientist persona.
 *   Using `nbconvert` for robust `.ipynb` file interaction.
 *   **Reminder for IV Analysis:** Investigate 2815 `CONFIRMED_FRAUD` accounts with zero PESONET/INSTAPAY transactions during IV analysis to understand their fraud patterns.
+*   **WoE and IV calculation for categorical features will use the `iv_calculation.py` script.**
+*   **Numerical features will be binned using user-provided specific definitions before IV calculation.**
