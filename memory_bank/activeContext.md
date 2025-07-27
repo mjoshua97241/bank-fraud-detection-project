@@ -4,7 +4,7 @@
 
 *   Integrating the Memory Bank system into the workflow.
 *   Refining data dictionary generation and access.
-*   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.ipynb`, including zero-imputation, data dictionary generation, **completed data filtering**, and ongoing refinement of `dna_final_tag` distribution and survival days visualizations.
+*   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.py`, including zero-imputation, data dictionary generation, **completed data filtering**, and IV calculation for categorical features.
 *   Adopting a new Jupyter Notebook workflow: read `.ipynb`, edit `.py`.
 *   **Completed IV and WoE calculation code for categorical features.**
 

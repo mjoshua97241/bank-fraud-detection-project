@@ -187,3 +187,4 @@ cython_debug/
 
 # Notebooks to be deleted
 to_be_deleted/
+to_be_deleted/py_version
