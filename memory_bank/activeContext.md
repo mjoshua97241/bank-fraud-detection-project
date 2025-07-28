@@ -6,7 +6,7 @@
 *   Refining data dictionary generation and access.
 *   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.py`, including zero-imputation, data dictionary generation, **completed data filtering**, and IV calculation for categorical features.
 *   Adopting a new Jupyter Notebook workflow: read `.ipynb`, edit `.py`.
-*   **Completed IV and WoE calculation code for categorical features.**
+*   **Completed and debugged IV and WoE calculation code for categorical and numerical features, ensuring robust column handling, consistent naming, and rounding to 2 decimal places for IV/WoE and 4 for percentages.**
 
 ## Recent changes
 
@@ -22,7 +22,7 @@
 
 *   Continue initial data loading and exploration in `1.0-mjv-initial-data-exploration.ipynb`.
 *   **Prepare for IV analysis of numerical features, where specific binning definitions will be provided by the user.**
-*   (Outline immediate next steps)
+*   **PRIORITY: Fix binning issues in numerical IV tables (e.g., 'Other' category, incorrect ranges).**
 
 ## Active decisions and considerations
 

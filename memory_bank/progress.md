@@ -5,7 +5,7 @@
 *   Project structure is set up according to Cookiecutter Data Science template.
 *   Basic path management in `bank_fraud/config.py` is established.
 *   Data dictionary generation utility (`data_dictionary_generator.py`) is functional.
-*   Initial data exploration (`1.0-mjv-initial-data-exploration.py`) is set up, including zero-imputation, data dictionary generation, and IV calculation for categorical features.
+*   Initial data exploration (`1.0-mjv-initial-data-exploration.py`) is set up, including zero-imputation, data dictionary generation, and **robust IV calculation for categorical and numerical features (with rounding for readability).**
 *   Memory Bank directory and all core files (`projectbrief.md`, `productContext.md`, `activeContext.md`, `systemPatterns.md`, `techContext.md`, `progress.md`) are created.
 *   `eda_checklist.md` has been moved to `notebooks/to_be_deleted/`.
 *   Agent persona (expert data scientist) has been configured in `.cursorrules`.

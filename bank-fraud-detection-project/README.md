@@ -26,7 +26,7 @@ This project developed a comprehensive and scalable bank fraud detection system,
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+│                         `1.0-jqp-initial-data-exploration`. These notebooks follow a structured EDA process, emphasizing robust data quality checks and feature selection using metrics like Information Value (IV).
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for bank_fraud
 │                         and configuration for tools like ruff.
