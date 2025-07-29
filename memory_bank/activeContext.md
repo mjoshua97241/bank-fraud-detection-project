@@ -7,6 +7,8 @@
 *   Continuing initial data exploration in `1.0-mjv-initial-data-exploration.py`, including zero-imputation, data dictionary generation, **completed data filtering**, and IV calculation for categorical features.
 *   Adopting a new Jupyter Notebook workflow: read `.ipynb`, edit `.py`.
 *   **Completed and debugged IV and WoE calculation code for categorical and numerical features, ensuring robust column handling, consistent naming, and rounding to 2 decimal places for IV/WoE and 4 for percentages.**
+*   **Dropped 30 columns based on IV calculation and feature selection criteria.**
+*   **Updated IV interpretation and reasons in the Markdown table and `get_predictive_power` functions in `1.0-mjv-initial-data-exploration.py`.**
 
 ## Recent changes
 
@@ -17,12 +19,24 @@
 *   Moved `eda_checklist.md` to `notebooks/to_be_deleted/`.
 *   Updated `.cursorrules` with agent persona.
 *   **Created `iv_calculation.py` in `notebooks/to_be_deleted/` for categorical IV/WoE calculation.**
+*   **Created `process_binning_rules.py` in `bank_fraud/utils/` and executed it to pre-process numerical binning rules.**
+*   **Generated `numerical_binning_rules_processed.csv` in `references/`.**
+*   **Integrated pre-processed binning rules into `1.0-mjv-initial-data-exploration.py` for optimized numerical IV calculation and fixed binning issues.**
 
 ## Next steps
 
 *   Continue initial data loading and exploration in `1.0-mjv-initial-data-exploration.ipynb`.
 *   **Prepare for IV analysis of numerical features, where specific binning definitions will be provided by the user.**
-*   **PRIORITY: Fix binning issues in numerical IV tables (e.g., 'Other' category, incorrect ranges).**
+*   **Completed correlation analysis for categorical and numerical features, dropped highly correlated numerical features, and refined the analysis and decision section by removing redundant information.**
+*   Perform EDA for final features, categorized by:
+    *   Profile Traits
+    *   Transaction Size and Frequency
+    *   Network Behaviors
+    *   Time-Based Behaviors
+    *   Fund Flow Patterns
+*   Create bar graphs based on `categorical_iv_details.csv` and `numerical_iv_details.csv` for the features in each category.
+*   Provide interpretation related to fraud for each bar graph.
+*   Plan the subsequent steps.
 
 ## Active decisions and considerations
 
@@ -33,3 +47,4 @@
 *   **Reminder for IV Analysis:** Investigate 2815 `CONFIRMED_FRAUD` accounts with zero PESONET/INSTAPAY transactions during IV analysis to understand their fraud patterns.
 *   **WoE and IV calculation for categorical features will use the `iv_calculation.py` script.**
 *   **Numerical features will be binned using user-provided specific definitions before IV calculation.**
+*   **Decision to pre-process numerical binning rules for optimization.**

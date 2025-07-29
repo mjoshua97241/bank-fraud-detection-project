@@ -1,64 +1,64 @@
-count_PESONET_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+count_PESONET_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	8184	485004	493188	1.0	1.0	1.0	-0.0	0.0
-Other	0	1	1	0.0	0.0	0.0	0.72	0.0
+1	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-count_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+count_PESONET_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	8173	484778	492951	0.9995	0.9987	0.9995	0.0	0.0
 10+	3	37	40	0.0001	0.0004	0.0001	-1.57	0.0
 5 - <10	8	190	198	0.0004	0.001	0.0004	-0.91	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-max_amount_PESONET_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_amount_PESONET_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <200	8184	485004	493188	1.0	1.0	1.0	-0.0	0.0
 200+	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-min_amount_PESONET_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_amount_PESONET_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <200	8184	485004	493188	1.0	1.0	1.0	-0.0	0.0
 200+	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-rank	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+rank	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3033	322646	325679	0.6604	0.3706	0.6652	0.59	0.17
-Other	5151	162359	167510	0.3396	0.6294	0.3348	-0.63	0.19
+1	5151	162359	167510	0.3396	0.6294	0.3348	-0.63	0.19
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.36
 
-txn_days_active_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_days_active_week_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	5368	445634	451002	0.9145	0.6559	0.9188	0.34	0.09
 2 - <5	1405	36305	37710	0.0765	0.1717	0.0749	-0.83	0.08
 5+	1411	3066	4477	0.0091	0.1724	0.0063	-3.31	0.55
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.72
 
-txn_days_active_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_days_active_week_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	5198	459740	464938	0.9427	0.6351	0.9479	0.4	0.13
 2 - <5	1081	22731	23812	0.0483	0.1321	0.0469	-1.04	0.09
 5+	1905	2534	4439	0.009	0.2328	0.0052	-3.8	0.86
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.08
 
-txn_days_active_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_days_active_week_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	5912	460060	465972	0.9448	0.7224	0.9486	0.27	0.06
 2 - <5	1243	22297	23540	0.0477	0.1519	0.046	-1.2	0.13
 5+	1029	2648	3677	0.0075	0.1257	0.0055	-3.14	0.38
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.57
 
-txn_days_active_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_days_active_week_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	6595	453774	460369	0.9335	0.8058	0.9356	0.15	0.02
 2 - <5	863	26308	27171	0.0551	0.1054	0.0542	-0.66	0.03
 5+	726	4923	5649	0.0115	0.0887	0.0102	-2.17	0.17
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.22
 
-change_email_occurence	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+change_email_occurence	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <3	8112	484905	493017	0.9997	0.9912	0.9998	0.01	0.0
 3+	72	100	172	0.0003	0.0088	0.0002	-3.75	0.03
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.03
 
-change_mob_num_occurence	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+change_mob_num_occurence	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <3	8139	484923	493062	0.9997	0.9945	0.9998	0.01	0.0
 3+	45	82	127	0.0003	0.0055	0.0002	-3.48	0.02
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.02
 
-txn_days_active_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_days_active_30d	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	4958	459871	464829	0.9425	0.6058	0.9482	0.45	0.15
 11 - <16	1281	4731	6012	0.0122	0.1565	0.0098	-2.78	0.41
 16 - <21	477	1614	2091	0.0042	0.0583	0.0033	-2.86	0.16
@@ -67,7 +67,7 @@ txn_days_active_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Percent
 6 - <11	1110	17978	19088	0.0387	0.1356	0.0371	-1.3	0.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.98
 
-num_same_day_cico_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+num_same_day_cico_days	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	5963	482791	488754	0.991	0.7286	0.9954	0.31	0.08
 11 - <16	807	388	1195	0.0024	0.0986	0.0008	-4.81	0.47
 16 - <21	281	147	428	0.0009	0.0343	0.0003	-4.73	0.16
@@ -75,7 +75,7 @@ num_same_day_cico_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perc
 6 - <11	1038	1626	2664	0.0054	0.1268	0.0034	-3.63	0.45
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.22
 
-txn_days_active	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_days_active	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	4958	459871	464829	0.9425	0.6058	0.9482	0.45	0.15
 11 - <16	1281	4731	6012	0.0122	0.1565	0.0098	-2.78	0.41
 16 - <21	477	1614	2091	0.0042	0.0583	0.0033	-2.86	0.16
@@ -83,7 +83,7 @@ txn_days_active	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 6 - <11	1110	17978	19088	0.0387	0.1356	0.0371	-1.3	0.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.98
 
-active_days_with_txns	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+active_days_with_txns	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	4958	459871	464829	0.9425	0.6058	0.9482	0.45	0.15
 11 - <16	1281	4731	6012	0.0122	0.1565	0.0098	-2.78	0.41
 16 - <21	477	1614	2091	0.0042	0.0583	0.0033	-2.86	0.16
@@ -91,7 +91,7 @@ active_days_with_txns	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 6 - <11	1110	17978	19088	0.0387	0.1356	0.0371	-1.3	0.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.98
 
-num_inflow_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+num_inflow_days	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	5493	472344	477837	0.9689	0.6712	0.9739	0.37	0.11
 11 - <16	957	1989	2946	0.006	0.1169	0.0041	-3.35	0.38
 16 - <21	359	696	1055	0.0021	0.0439	0.0014	-3.42	0.15
@@ -99,14 +99,14 @@ num_inflow_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 6 - <11	1235	9619	10854	0.022	0.1509	0.0198	-2.03	0.27
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.95
 
-min_txn_sessions_per_day_3min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_txn_sessions_per_day_3min	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	7352	484857	492209	0.998	0.8983	0.9997	0.11	0.01
 11 - <16	200	33	233	0.0005	0.0244	0.0001	-5.88	0.14
 16+	166	21	187	0.0004	0.0203	0.0	-6.15	0.12
 6 - <11	466	94	560	0.0011	0.0569	0.0002	-5.68	0.32
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.6
 
-min_txn_sessions_per_day_5min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_txn_sessions_per_day_5min	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <6	7553	484901	492454	0.9985	0.9229	0.9998	0.08	0.01
 11 - <16	175	15	190	0.0004	0.0214	0.0	-6.54	0.14
 16 - <21	60	1	61	0.0001	0.0073	0.0	-8.18	0.06
@@ -114,7 +114,7 @@ min_txn_sessions_per_day_5min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Sha
 6 - <11	372	87	459	0.0009	0.0455	0.0002	-5.53	0.25
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.48
 
-min_txn_count_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_txn_count_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	7221	484837	492058	0.9977	0.8823	0.9997	0.12	0.01
 10 - <20	574	71	645	0.0013	0.0701	0.0001	-6.17	0.43
 20 - <30	219	46	265	0.0005	0.0268	0.0001	-5.64	0.15
@@ -123,7 +123,7 @@ min_txn_count_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBa
 50+	34	7	41	0.0001	0.0042	0.0	-5.66	0.02
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.71
 
-max_txn_sessions_per_day_5min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_txn_sessions_per_day_5min	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	5384	484169	489553	0.9926	0.6579	0.9983	0.42	0.14
 10 - <20	691	646	1337	0.0027	0.0844	0.0013	-4.15	0.34
 20 - <30	501	110	611	0.0012	0.0612	0.0002	-5.6	0.34
@@ -134,7 +134,7 @@ max_txn_sessions_per_day_5min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Sha
 70+	66	14	80	0.0002	0.0081	0.0	-5.63	0.05
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.26
 
-max_txn_sessions_per_day_3min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_txn_sessions_per_day_3min	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	5309	484075	489384	0.9923	0.6487	0.9981	0.43	0.15
 10 - <20	464	679	1143	0.0023	0.0567	0.0014	-3.7	0.2
 20 - <30	457	126	583	0.0012	0.0558	0.0003	-5.37	0.3
@@ -146,7 +146,7 @@ max_txn_sessions_per_day_3min	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Sha
 80+	188	22	210	0.0004	0.023	0.0	-6.23	0.14
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.33
 
-num_unique_source_names	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+num_unique_source_names	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	5912	483855	489767	0.9931	0.7224	0.9976	0.32	0.09
 10 - <20	1021	793	1814	0.0037	0.1248	0.0016	-4.33	0.53
 20 - <30	436	183	619	0.0013	0.0533	0.0004	-4.95	0.26
@@ -157,7 +157,7 @@ num_unique_source_names	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Per
 70+	203	54	257	0.0005	0.0248	0.0001	-5.41	0.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.45
 
-num_unique_destination_accounts	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+num_unique_destination_accounts	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <20	5716	484571	490287	0.9941	0.6984	0.9991	0.36	0.11
 20 - <40	195	266	461	0.0009	0.0238	0.0005	-3.77	0.09
 40 - <60	147	59	206	0.0004	0.018	0.0001	-4.99	0.09
@@ -165,7 +165,7 @@ num_unique_destination_accounts	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	S
 80+	2020	77	2097	0.0043	0.2468	0.0002	-7.35	1.81
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.17
 
-num_unique_destination_names	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+num_unique_destination_names	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <20	5728	484538	490266	0.9941	0.6999	0.999	0.36	0.11
 20 - <40	203	298	501	0.001	0.0248	0.0006	-3.7	0.09
 40 - <60	147	61	208	0.0004	0.018	0.0001	-4.96	0.09
@@ -173,7 +173,7 @@ num_unique_destination_names	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Shar
 80+	1999	74	2073	0.0042	0.2443	0.0002	-7.38	1.8
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.15
 
-percent_inflow_same_day_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+percent_inflow_same_day_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0 - <0.2	3993	451227	455220	0.923	0.4879	0.9304	0.65	0.29
 0.2 - <0.4	404	16544	16948	0.0344	0.0494	0.0341	-0.37	0.01
 0.4 - <0.6	766	13309	14075	0.0285	0.0936	0.0274	-1.23	0.08
@@ -181,7 +181,7 @@ percent_inflow_same_day_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share
 Other	2081	684	2765	0.0056	0.2543	0.0014	-5.19	1.31
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.99
 
-top_source_share_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+top_source_share_in	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0 - <0.2	4278	322989	327267	0.6636	0.5227	0.6659	0.24	0.03
 0.2 - <0.4	1291	2921	4212	0.0085	0.1577	0.006	-3.27	0.5
 0.4 - <0.6	977	15660	16637	0.0337	0.1194	0.0323	-1.31	0.11
@@ -189,7 +189,7 @@ top_source_share_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Percent
 Other	1167	127450	128617	0.2608	0.1426	0.2628	0.61	0.07
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.73
 
-repeat_counterparty_ratio_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+repeat_counterparty_ratio_in	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0 - <0.2	5965	422695	428660	0.8692	0.7289	0.8715	0.18	0.03
 0.2 - <0.4	1040	8595	9635	0.0195	0.1271	0.0177	-1.97	0.22
 0.4 - <0.6	533	17228	17761	0.036	0.0651	0.0355	-0.61	0.02
@@ -197,7 +197,7 @@ repeat_counterparty_ratio_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Shar
 Other	468	32404	32872	0.0667	0.0572	0.0668	0.16	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.27
 
-repeat_counterparty_ratio_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+repeat_counterparty_ratio_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0 - <0.2	6945	454080	461025	0.9348	0.8486	0.9362	0.1	0.01
 0.2 - <0.4	282	6428	6710	0.0136	0.0345	0.0133	-0.96	0.02
 0.4 - <0.6	278	8195	8473	0.0172	0.034	0.0169	-0.7	0.01
@@ -205,7 +205,7 @@ repeat_counterparty_ratio_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Sha
 Other	624	15063	15687	0.0318	0.0762	0.0311	-0.9	0.04
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.09
 
-top_destination_share_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+top_destination_share_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0 - <0.2	4675	374351	379026	0.7685	0.5712	0.7718	0.3	0.06
 0.2 - <0.4	766	2911	3677	0.0075	0.0936	0.006	-2.75	0.24
 0.4 - <0.6	786	9466	10252	0.0208	0.096	0.0195	-1.59	0.12
@@ -213,7 +213,7 @@ top_destination_share_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	P
 Other	1493	87184	88677	0.1798	0.1824	0.1798	-0.01	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.45
 
-weekday_entropy	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+weekday_entropy	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0 - <0.5	3545	386367	389912	0.7906	0.4332	0.7966	0.61	0.22
 0.5 - <1.0	420	14515	14935	0.0303	0.0513	0.0299	-0.54	0.01
 1.0 - <1.5	484	30273	30757	0.0624	0.0591	0.0624	0.05	0.0
@@ -221,20 +221,20 @@ weekday_entropy	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 2+	3046	24099	27145	0.055	0.3722	0.0497	-2.01	0.65
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.89
 
-hour_entropy	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+hour_entropy	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	4237	443674	447911	0.9082	0.5177	0.9148	0.57	0.23
 2 - <4	2103	40628	42731	0.0866	0.257	0.0838	-1.12	0.19
 4+	1844	703	2547	0.0052	0.2253	0.0014	-5.05	1.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.55
 
-source_entropy_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+source_entropy_in	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	4925	479678	484603	0.9826	0.6018	0.989	0.5	0.19
 2 - <4	2015	5003	7018	0.0142	0.2462	0.0103	-3.17	0.75
 4 - <6	1075	281	1356	0.0027	0.1314	0.0006	-5.42	0.71
 6+	169	43	212	0.0004	0.0207	0.0001	-5.45	0.11
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.76
 
-destination_entropy_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+destination_entropy_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <2	5362	478137	483499	0.9804	0.6552	0.9858	0.41	0.14
 10+	53	0	53	0.0001	0.0065	0.0	-8.78	0.06
 2 - <4	524	6414	6938	0.0141	0.064	0.0132	-1.58	0.08
@@ -243,38 +243,38 @@ destination_entropy_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Per
 8 - <10	676	7	683	0.0014	0.0826	0.0	-8.65	0.71
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.08
 
-txn_count_vol_score_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_vol_score_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	8144	484985	493129	0.9999	0.9951	1.0	0.0	0.0
 10+	12	8	20	0.0	0.0015	0.0	-4.49	0.01
 5 - <10	28	12	40	0.0001	0.0034	0.0	-4.93	0.02
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.02
 
-txn_count_vol_score_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_vol_score_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	8168	484996	493164	0.9999	0.998	1.0	0.0	0.0
 10+	5	3	8	0.0	0.0006	0.0	-4.59	0.0
 5 - <10	11	6	17	0.0	0.0013	0.0	-4.69	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.01
 
-txn_count_vol_score_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_vol_score_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	8118	484989	493107	0.9998	0.9919	1.0	0.01	0.0
 10+	24	8	32	0.0001	0.0029	0.0	-5.18	0.02
 5 - <10	42	8	50	0.0001	0.0051	0.0	-5.74	0.03
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.04
 
-txn_count_vol_score_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_vol_score_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	8168	484999	493167	1.0	0.998	1.0	0.0	0.0
 10+	6	2	8	0.0	0.0007	0.0	-5.18	0.0
 5 - <10	10	4	14	0.0	0.0012	0.0	-5.0	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.01
 
-cv_time_btwn_txns	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+cv_time_btwn_txns	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	7259	484862	492121	0.9978	0.887	0.9997	0.12	0.01
 10 - <15	74	25	99	0.0002	0.009	0.0001	-5.17	0.05
 15+	9	0	9	0.0	0.0011	0.0	-7.0	0.01
 5 - <10	842	118	960	0.0019	0.1029	0.0002	-6.05	0.62
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.69
 
-max_time_btwn_txns_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_time_btwn_txns_days	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	6919	412728	419647	0.8509	0.8454	0.851	0.01	0.0
 10 - <15	299	21877	22176	0.045	0.0365	0.0451	0.21	0.0
 15 - <20	133	10134	10267	0.0208	0.0163	0.0209	0.25	0.0
@@ -282,7 +282,7 @@ max_time_btwn_txns_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Per
 5 - <10	778	33354	34132	0.0692	0.0951	0.0688	-0.32	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.02
 
-avg_time_btwn_txns_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+avg_time_btwn_txns_days	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	7994	447855	455849	0.9243	0.9768	0.9234	-0.06	0.0
 10 - <15	44	7972	8016	0.0163	0.0054	0.0164	1.12	0.01
 15 - <20	9	2756	2765	0.0056	0.0011	0.0057	1.64	0.01
@@ -290,7 +290,7 @@ avg_time_btwn_txns_days	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Per
 5 - <10	128	23326	23454	0.0476	0.0156	0.0481	1.12	0.04
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.07
 
-txn_velocity_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_30d	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <5	5921	484781	490702	0.995	0.7235	0.9995	0.32	0.09
 10 - <15	413	59	472	0.001	0.0505	0.0001	-6.03	0.3
 15 - <20	441	22	463	0.0009	0.0539	0.0	-7.08	0.38
@@ -302,7 +302,7 @@ txn_velocity_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad
 5 - <10	608	138	746	0.0015	0.0743	0.0003	-5.56	0.41
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.07
 
-txn_velocity_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_week_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	6576	484896	491472	0.9965	0.8035	0.9998	0.22	0.04
 10 - <20	436	73	509	0.001	0.0533	0.0002	-5.87	0.31
 20 - <30	409	25	434	0.0009	0.05	0.0001	-6.88	0.34
@@ -311,7 +311,7 @@ txn_velocity_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 50+	191	2	193	0.0004	0.0233	0.0	-8.64	0.2
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.48
 
-txn_velocity_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_week_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	6281	484935	491216	0.996	0.7675	0.9999	0.26	0.06
 10 - <20	533	61	594	0.0012	0.0651	0.0001	-6.25	0.41
 20 - <30	419	3	422	0.0009	0.0512	0.0	-9.02	0.46
@@ -320,7 +320,7 @@ txn_velocity_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 50+	310	0	310	0.0006	0.0379	0.0	-10.54	0.4
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.02
 
-txn_velocity_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_week_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	7018	484950	491968	0.9975	0.8575	0.9999	0.15	0.02
 10 - <20	452	44	496	0.001	0.0552	0.0001	-6.41	0.35
 20 - <30	151	6	157	0.0003	0.0185	0.0	-7.31	0.13
@@ -329,7 +329,7 @@ txn_velocity_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 50+	272	1	273	0.0006	0.0332	0.0	-9.69	0.32
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.14
 
-txn_velocity_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_week_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	7520	484881	492401	0.9984	0.9189	0.9997	0.08	0.01
 10 - <20	186	58	244	0.0005	0.0227	0.0001	-5.25	0.12
 20 - <30	164	13	177	0.0004	0.02	0.0	-6.62	0.13
@@ -338,37 +338,37 @@ txn_velocity_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 50+	117	34	151	0.0003	0.0143	0.0001	-5.32	0.08
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.49
 
-txn_velocity_delta_wk2_vs_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_delta_wk2_vs_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	5445	457373	462818	0.9384	0.6653	0.943	0.35	0.1
 negative accel (<0)	1069	16050	17119	0.0347	0.1306	0.0331	-1.37	0.13
 positive accel (>0)	1670	11582	13252	0.0269	0.2041	0.0239	-2.15	0.39
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.62
 
-txn_velocity_delta_wk3_vs_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_delta_wk3_vs_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	5884	462301	468185	0.9493	0.719	0.9532	0.28	0.07
 negative accel (<0)	1419	11304	12723	0.0258	0.1734	0.0233	-2.01	0.3
 positive accel (>0)	881	11400	12281	0.0249	0.1076	0.0235	-1.52	0.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.5
 
-txn_velocity_delta_wk4_vs_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_delta_wk4_vs_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	6695	459668	466363	0.9456	0.8181	0.9478	0.15	0.02
 negative accel (<0)	754	10604	11358	0.023	0.0921	0.0219	-1.44	0.1
 positive accel (>0)	735	14733	15468	0.0314	0.0898	0.0304	-1.08	0.06
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.18
 
-txn_velocity_accel_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_accel_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	6308	465843	472151	0.9573	0.7708	0.9605	0.22	0.04
 negative accel (<0)	1361	8220	9581	0.0194	0.1663	0.0169	-2.28	0.34
 positive accel (>0)	515	10942	11457	0.0232	0.0629	0.0226	-1.03	0.04
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.42
 
-txn_velocity_accel_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_velocity_accel_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	7129	465560	472689	0.9584	0.8711	0.9599	0.1	0.01
 negative accel (<0)	611	8100	8711	0.0177	0.0747	0.0167	-1.5	0.09
 positive accel (>0)	444	11345	11789	0.0239	0.0543	0.0234	-0.84	0.03
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.12
 
-txn_count_day_volatility_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_day_volatility_30d	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <10	5876	484772	490648	0.9948	0.718	0.9995	0.33	0.09
 10 - <20	1017	137	1154	0.0023	0.1243	0.0003	-6.09	0.75
 20 - <30	928	62	990	0.002	0.1134	0.0001	-6.79	0.77
@@ -377,7 +377,7 @@ txn_count_day_volatility_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Shar
 50+	73	4	77	0.0002	0.0089	0.0	-6.99	0.06
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.91
 
-max_txn_count_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_txn_count_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <20	5449	484600	490049	0.9936	0.6658	0.9992	0.41	0.14
 20 - <40	614	221	835	0.0017	0.075	0.0005	-5.1	0.38
 40 - <60	484	65	549	0.0011	0.0591	0.0001	-6.09	0.36
@@ -385,7 +385,7 @@ max_txn_count_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBa
 80+	1129	67	1196	0.0024	0.138	0.0001	-6.91	0.95
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.22
 
-txn_count_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_week_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	6387	484817	491204	0.996	0.7804	0.9996	0.25	0.05
 100 - <150	329	23	352	0.0007	0.0402	0.0	-6.74	0.27
 150 - <200	298	18	316	0.0006	0.0364	0.0	-6.89	0.25
@@ -396,7 +396,7 @@ txn_count_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 50 - <100	367	133	500	0.001	0.0448	0.0003	-5.1	0.23
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.62
 
-txn_count_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_week_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	6223	484893	491116	0.9958	0.7604	0.9998	0.27	0.07
 100 - <150	489	19	508	0.001	0.0598	0.0	-7.33	0.44
 150 - <200	266	2	268	0.0005	0.0325	0.0	-8.97	0.29
@@ -407,7 +407,7 @@ txn_count_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 50 - <100	211	85	296	0.0006	0.0258	0.0002	-4.99	0.13
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.06
 
-txn_count_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_week_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	6862	484859	491721	0.997	0.8385	0.9997	0.18	0.03
 100 - <150	260	19	279	0.0006	0.0318	0.0	-6.7	0.21
 150 - <200	105	4	109	0.0002	0.0128	0.0	-7.35	0.09
@@ -418,7 +418,7 @@ txn_count_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 50 - <100	375	118	493	0.001	0.0458	0.0002	-5.24	0.24
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.22
 
-txn_count_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_week_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	7404	484793	492197	0.998	0.9047	0.9996	0.1	0.01
 100 - <150	117	17	134	0.0003	0.0143	0.0	-6.01	0.09
 150 - <200	116	10	126	0.0003	0.0142	0.0	-6.53	0.09
@@ -429,7 +429,7 @@ txn_count_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 50 - <100	213	130	343	0.0007	0.026	0.0003	-4.58	0.12
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.56
 
-weekend_txn_count	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+weekend_txn_count	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	6152	484824	490976	0.9955	0.7517	0.9996	0.29	0.07
 100 - <150	469	39	508	0.001	0.0573	0.0001	-6.57	0.38
 150 - <200	260	24	284	0.0006	0.0318	0.0	-6.46	0.21
@@ -441,7 +441,7 @@ weekend_txn_count	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBa
 Other	6	0	6	0.0	0.0007	0.0	-6.6	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.78
 
-total_sources	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+total_sources	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <25	7210	484763	491973	0.9975	0.881	0.9995	0.13	0.01
 100 - <125	51	9	60	0.0001	0.0062	0.0	-5.82	0.04
 125 - <150	31	8	39	0.0001	0.0038	0.0	-5.44	0.02
@@ -452,7 +452,7 @@ total_sources	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	Pe
 75 - <100	56	18	74	0.0002	0.0068	0.0	-5.22	0.04
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.67
 
-night_txn_count	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+night_txn_count	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	6037	484750	490787	0.9951	0.7377	0.9995	0.3	0.08
 100 - <150	476	47	523	0.0011	0.0582	0.0001	-6.4	0.37
 150 - <200	351	29	380	0.0008	0.0429	0.0001	-6.58	0.28
@@ -463,7 +463,7 @@ night_txn_count	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 50 - <100	730	157	887	0.0018	0.0892	0.0003	-5.62	0.5
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.79
 
-count_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+count_INSTAPAY_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <100	7914	484832	492746	0.9991	0.967	0.9996	0.03	0.0
 100 - <200	195	126	321	0.0007	0.0238	0.0003	-4.52	0.11
 200 - <300	46	28	74	0.0002	0.0056	0.0001	-4.58	0.03
@@ -471,7 +471,7 @@ count_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBa
 400+	12	10	22	0.0	0.0015	0.0	-4.26	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.15
 
-count_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+count_INSTAPAY_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <100	5955	484866	490821	0.9952	0.7276	0.9997	0.32	0.09
 100 - <200	303	69	372	0.0008	0.037	0.0001	-5.56	0.21
 200 - <300	425	17	442	0.0009	0.0519	0.0	-7.3	0.38
@@ -483,7 +483,7 @@ count_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 800+	386	0	386	0.0008	0.0472	0.0	-10.76	0.51
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.23
 
-count_total_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+count_total_in	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <50	7495	484452	491947	0.9975	0.9158	0.9989	0.09	0.01
 100 - <150	130	88	218	0.0004	0.0159	0.0002	-4.47	0.07
 150 - <200	66	38	104	0.0002	0.0081	0.0001	-4.63	0.04
@@ -492,7 +492,7 @@ count_total_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	P
 50 - <100	418	380	798	0.0016	0.0511	0.0008	-4.18	0.21
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.37
 
-count_total_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+count_total_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <150	6097	484911	491008	0.9956	0.745	0.9998	0.29	0.07
 1050+	234	0	234	0.0005	0.0286	0.0	-10.26	0.29
 150 - <300	586	41	627	0.0013	0.0716	0.0001	-6.74	0.48
@@ -504,7 +504,7 @@ count_total_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 Other	6	0	6	0.0	0.0007	0.0	-6.6	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.05
 
-txn_count_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_count_30d	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <100	5721	484581	490302	0.9941	0.699	0.9991	0.36	0.11
 100 - <200	373	286	659	0.0013	0.0456	0.0006	-4.35	0.2
 200 - <300	435	52	487	0.001	0.0532	0.0001	-6.21	0.33
@@ -516,7 +516,7 @@ txn_count_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	Pe
 800+	428	1	429	0.0009	0.0523	0.0	-10.14	0.53
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	2.25
 
-txn_amt_vol_score_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_vol_score_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 1K - <2K	4	80	84	0.0002	0.0005	0.0002	-1.09	0.0
 2K - <3K	2	23	25	0.0001	0.0002	0.0	-1.64	0.0
 3K - <4K	1	17	18	0.0	0.0001	0.0	-1.25	0.0
@@ -525,7 +525,7 @@ txn_amt_vol_score_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 <1K	8172	484845	493017	0.9997	0.9985	0.9997	0.0	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-txn_amt_vol_score_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_vol_score_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	5213	460485	465698	0.9443	0.637	0.9494	0.4	0.12
 1 - <500	764	14101	14865	0.0301	0.0934	0.0291	-1.17	0.07
 1.5K+	11	288	299	0.0006	0.0013	0.0006	-0.82	0.0
@@ -534,7 +534,7 @@ txn_amt_vol_score_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 Other	2192	10081	12273	0.0249	0.2678	0.0208	-2.56	0.63
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.83
 
-txn_amt_vol_score_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_vol_score_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	5927	460711	466638	0.9462	0.7242	0.9499	0.27	0.06
 1 - <200	754	14271	15025	0.0305	0.0921	0.0294	-1.14	0.07
 200 - <400	9	90	99	0.0002	0.0011	0.0002	-1.78	0.0
@@ -543,7 +543,7 @@ txn_amt_vol_score_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 Other	1483	9638	11121	0.0225	0.1812	0.0199	-2.21	0.36
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.49
 
-txn_amt_vol_score_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_vol_score_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	6605	454559	461164	0.9351	0.8071	0.9372	0.15	0.02
 1 - <200	618	18381	18999	0.0385	0.0755	0.0379	-0.69	0.03
 200 - <400	7	101	108	0.0002	0.0009	0.0002	-1.41	0.0
@@ -552,7 +552,7 @@ txn_amt_vol_score_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 Other	941	11729	12670	0.0257	0.115	0.0242	-1.56	0.14
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.19
 
-min_amount_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_amount_INSTAPAY_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3050	324115	327165	0.6634	0.3727	0.6683	0.58	0.17
 1 - <5K	2954	142559	145513	0.295	0.3609	0.2939	-0.21	0.01
 10K - <15K	929	3504	4433	0.009	0.1135	0.0072	-2.75	0.29
@@ -567,7 +567,7 @@ min_amount_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perc
 Other	14	2817	2831	0.0057	0.0017	0.0058	1.22	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.75
 
-min_amount_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_amount_INSTAPAY_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3386	373998	377384	0.7652	0.4137	0.7711	0.62	0.22
 1 - <5K	4270	102316	106586	0.2161	0.5217	0.211	-0.91	0.28
 10K - <15K	84	1636	1720	0.0035	0.0103	0.0034	-1.11	0.01
@@ -582,7 +582,7 @@ min_amount_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Per
 Other	0	9	9	0.0	0.0	0.0	2.92	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.58
 
-max_amount_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_amount_INSTAPAY_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3050	324115	327165	0.6634	0.3727	0.6683	0.58	0.17
 1 - <5K	803	112187	112990	0.2291	0.0981	0.2313	0.86	0.11
 10K - <15K	287	11147	11434	0.0232	0.0351	0.023	-0.42	0.01
@@ -597,7 +597,7 @@ max_amount_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perc
 Other	0	57	57	0.0001	0.0	0.0001	4.77	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.33
 
-max_amount_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_amount_INSTAPAY_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3386	373998	377384	0.7652	0.4137	0.7711	0.62	0.22
 1 - <5K	1344	90569	91913	0.1864	0.1642	0.1867	0.13	0.0
 10K - <15K	719	3884	4603	0.0093	0.0879	0.008	-2.4	0.19
@@ -612,7 +612,7 @@ max_amount_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Per
 Other	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.17
 
-avg_amt_out_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+avg_amt_out_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3386	373998	377384	0.7652	0.4137	0.7711	0.62	0.22
 1 - <10K	1387	103786	105173	0.2133	0.1695	0.214	0.23	0.01
 10K - <20K	1121	4120	5241	0.0106	0.137	0.0085	-2.78	0.36
@@ -622,7 +622,7 @@ avg_amt_out_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 Other	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.62
 
-amt_to_destination	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+amt_to_destination	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3386	373998	377384	0.7652	0.4137	0.7711	0.62	0.22
 1 - <50K	2936	108772	111708	0.2265	0.3587	0.2243	-0.47	0.06
 100K - <150K	295	325	620	0.0013	0.036	0.0007	-3.99	0.14
@@ -631,7 +631,7 @@ amt_to_destination	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 Other	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.17
 
-amount_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+amount_INSTAPAY_OUT	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0K - <100K	5594	483606	489200	0.9919	0.6835	0.9971	0.38	0.12
 100K - <200K	795	800	1595	0.0032	0.0971	0.0016	-4.08	0.39
 200K - <300K	480	303	783	0.0016	0.0587	0.0006	-4.54	0.26
@@ -640,7 +640,7 @@ amount_INSTAPAY_OUT	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Percent
 500K+	444	104	548	0.0011	0.0543	0.0002	-5.53	0.3
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.66
 
-total_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+total_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0 - <100K	5594	483606	489200	0.9919	0.6835	0.9971	0.38	0.12
 100K - <200K	795	800	1595	0.0032	0.0971	0.0016	-4.08	0.39
 1M+	32	4	36	0.0001	0.0039	0.0	-6.16	0.02
@@ -654,7 +654,7 @@ total_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	Percen
 900K - <1M	12	5	17	0.0	0.0015	0.0	-4.96	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.67
 
-total_amount_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+total_amount_out	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0K - <100K	5594	483606	489200	0.9919	0.6835	0.9971	0.38	0.12
 100K - <200K	795	800	1595	0.0032	0.0971	0.0016	-4.08	0.39
 200K - <300K	480	303	783	0.0016	0.0587	0.0006	-4.54	0.26
@@ -663,7 +663,7 @@ total_amount_out	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad
 500K+	444	104	548	0.0011	0.0543	0.0002	-5.53	0.3
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.66
 
-min_amount_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_amount_PESONET_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	8066	481562	489628	0.9928	0.9856	0.9929	0.01	0.0
 1 - <10K	54	2326	2380	0.0048	0.0066	0.0048	-0.32	0.0
 10K - <20K	12	430	442	0.0009	0.0015	0.0009	-0.5	0.0
@@ -673,16 +673,17 @@ min_amount_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 Other	0	2	2	0.0	0.0	0.0	1.42	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.01
 
-min_txn_amt_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+min_txn_amt_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+0	2815	290425	293240	0.5946	0.344	0.5988	0.55	0.14
 1 - <25K	4247	188722	192969	0.3913	0.5189	0.3891	-0.29	0.04
 100K+	240	313	553	0.0011	0.0293	0.0006	-3.82	0.11
 25K - <50K	513	1709	2222	0.0045	0.0627	0.0035	-2.88	0.17
 50K - <75K	242	998	1240	0.0025	0.0296	0.0021	-2.67	0.07
 75K - <100K	114	131	245	0.0005	0.0139	0.0003	-3.94	0.05
-Other	2828	293132	295960	0.6001	0.3456	0.6044	0.56	0.14
+Other	13	2707	2720	0.0055	0.0016	0.0056	1.26	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.59
 
-txn_amt_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_week_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	4516	347820	352336	0.7144	0.5518	0.7171	0.26	0.04
 1 - <50K	1308	132364	133672	0.271	0.1598	0.2729	0.54	0.06
 100K - <150K	332	846	1178	0.0024	0.0406	0.0017	-3.15	0.12
@@ -698,7 +699,7 @@ txn_amt_week_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad
 Other	2	112	114	0.0002	0.0002	0.0002	-0.06	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.19
 
-txn_amt_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_week_wk2	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	4488	418176	422664	0.857	0.5484	0.8622	0.45	0.14
 1 - <50K	1071	62988	64059	0.1299	0.1309	0.1299	-0.01	0.0
 100K - <150K	339	563	902	0.0018	0.0414	0.0012	-3.57	0.14
@@ -714,7 +715,7 @@ txn_amt_week_wk2	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad
 Other	4	725	729	0.0015	0.0005	0.0015	1.12	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.55
 
-txn_amt_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_week_wk3	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	5017	422543	427560	0.8669	0.613	0.8712	0.35	0.09
 1 - <50K	1068	59144	60212	0.1221	0.1305	0.1219	-0.07	0.0
 100K - <150K	393	451	844	0.0017	0.048	0.0009	-3.94	0.19
@@ -730,7 +731,7 @@ txn_amt_week_wk3	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad
 Other	0	484	484	0.001	0.0	0.001	6.91	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.12
 
-txn_amt_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_week_wk4	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	6084	415844	421928	0.8555	0.7434	0.8574	0.14	0.02
 1 - <50K	814	65479	66293	0.1344	0.0995	0.135	0.31	0.01
 100K - <150K	209	575	784	0.0016	0.0255	0.0012	-3.07	0.07
@@ -746,7 +747,7 @@ txn_amt_week_wk4	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad
 Other	0	77	77	0.0002	0.0	0.0002	5.07	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.51
 
-avg_amt_in_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+avg_amt_in_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3033	322646	325679	0.6604	0.3706	0.6652	0.59	0.17
 1 - <50K	3367	159664	163031	0.3306	0.4114	0.3292	-0.22	0.02
 100K - <150K	285	398	683	0.0014	0.0348	0.0008	-3.75	0.13
@@ -762,7 +763,7 @@ avg_amt_in_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	P
 Other	0	56	56	0.0001	0.0	0.0001	4.75	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.98
 
-avg_inflow_outflow_ratio_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+avg_inflow_outflow_ratio_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3033	322646	325679	0.6604	0.3706	0.6652	0.59	0.17
 1 - <50K	4143	147901	152044	0.3083	0.5062	0.3049	-0.51	0.1
 100K - <150K	43	151	194	0.0004	0.0053	0.0003	-2.83	0.01
@@ -778,7 +779,7 @@ avg_inflow_outflow_ratio_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Shar
 Other	866	13409	14275	0.0289	0.1058	0.0276	-1.34	0.1
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.41
 
-avg_net_flow_amt_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+avg_net_flow_amt_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	2823	291017	293840	0.5958	0.3449	0.6	0.55	0.14
 1 - <20K	1980	142226	144206	0.2924	0.2419	0.2932	0.19	0.01
 100K - <120K	55	198	253	0.0005	0.0067	0.0004	-2.8	0.02
@@ -791,11 +792,10 @@ avg_net_flow_amt_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Percen
 40K - <60K	542	1463	2005	0.0041	0.0662	0.003	-3.09	0.2
 60K - <80K	149	351	500	0.001	0.0182	0.0007	-3.23	0.06
 80K - <100K	70	190	260	0.0005	0.0086	0.0004	-3.08	0.03
-Other	0	82	82	0.0002	0.0	0.0002	5.13	0.0
-negative_net_flow (<0)	1076	44956	46032	0.0933	0.1315	0.0927	-0.35	0.01
+Other	1076	45038	46114	0.0935	0.1315	0.0929	-0.35	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.97
 
-max_amount_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_amount_PESONET_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	8066	481562	489628	0.9928	0.9856	0.9929	0.01	0.0
 1 - <50K	81	2898	2979	0.006	0.0099	0.006	-0.5	0.0
 100K+	18	229	247	0.0005	0.0022	0.0005	-1.54	0.0
@@ -803,7 +803,7 @@ max_amount_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	Perce
 Other	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.01
 
-txn_amt_day_volatility_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_day_volatility_30d	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3509	384868	388377	0.7875	0.4288	0.7935	0.62	0.22
 1 - <50K	3770	98757	102527	0.2079	0.4607	0.2036	-0.82	0.21
 100K - <150K	74	205	279	0.0006	0.009	0.0004	-3.06	0.03
@@ -813,17 +813,18 @@ txn_amt_day_volatility_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	
 Other	0	191	191	0.0004	0.0	0.0004	5.98	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.86
 
-max_txn_amt_day	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+max_txn_amt_day	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+0	2815	290425	293240	0.5946	0.344	0.5988	0.55	0.14
 1 - <50K	1967	187340	189307	0.3838	0.2403	0.3863	0.47	0.07
 100K - <150K	908	1127	2035	0.0041	0.1109	0.0023	-3.87	0.42
 150K - <200K	1016	490	1506	0.0031	0.1241	0.001	-4.81	0.59
 200K - <500K	361	583	944	0.0019	0.0441	0.0012	-3.6	0.15
 500K+	42	156	198	0.0004	0.0051	0.0003	-2.77	0.01
 50K - <100K	1075	4828	5903	0.012	0.1314	0.01	-2.58	0.31
-Other	2815	290481	293296	0.5947	0.344	0.5989	0.55	0.14
+Other	0	56	56	0.0001	0.0	0.0001	4.75	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.7
 
-amount_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+amount_PESONET_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	8066	481562	489628	0.9928	0.9856	0.9929	0.01	0.0
 1 - <50K	64	2725	2789	0.0057	0.0078	0.0056	-0.33	0.0
 100K - <150K	7	175	182	0.0004	0.0009	0.0004	-0.86	0.0
@@ -833,7 +834,7 @@ amount_PESONET_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBa
 Other	0	1	1	0.0	0.0	0.0	0.72	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.01
 
-amt_from_source	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+amt_from_source	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3033	322646	325679	0.6604	0.3706	0.6652	0.59	0.17
 1 - <100K	3355	159298	162653	0.3298	0.4099	0.3284	-0.22	0.02
 100K - <200K	1072	1866	2938	0.006	0.131	0.0038	-3.53	0.45
@@ -849,7 +850,7 @@ amt_from_source	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 Other	0	56	56	0.0001	0.0	0.0001	4.75	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.96
 
-amount_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+amount_INSTAPAY_IN	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3050	324115	327165	0.6634	0.3727	0.6683	0.58	0.17
 1 - <100K	2202	156530	158732	0.3218	0.2691	0.3227	0.18	0.01
 100K - <200K	591	2307	2898	0.0059	0.0722	0.0048	-2.72	0.18
@@ -865,7 +866,7 @@ amount_INSTAPAY_IN	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentB
 Other	0	57	57	0.0001	0.0	0.0001	4.77	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.6
 
-total_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+total_in	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3033	322646	325679	0.6604	0.3706	0.6652	0.59	0.17
 1 - <100K	2195	157585	159780	0.324	0.2682	0.3249	0.19	0.01
 100K - <200K	591	2492	3083	0.0063	0.0722	0.0051	-2.64	0.18
@@ -881,7 +882,7 @@ total_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	Percent
 Other	0	56	56	0.0001	0.0	0.0001	4.75	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.57
 
-total_amount_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+total_amount_in	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	3033	322646	325679	0.6604	0.3706	0.6652	0.59	0.17
 1 - <250K	3022	160635	163657	0.3318	0.3693	0.3312	-0.11	0.0
 1.5M+	142	184	326	0.0007	0.0174	0.0004	-3.82	0.06
@@ -892,7 +893,8 @@ total_amount_in	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	
 Other	0	56	56	0.0001	0.0	0.0001	4.75	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.3
 
-txn_amt_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+txn_amt_30d	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+0	2815	290425	293240	0.5946	0.344	0.5988	0.55	0.14
 1 - <250K	2643	192309	194952	0.3953	0.3229	0.3965	0.21	0.02
 1.25M - <1.5M	194	78	272	0.0006	0.0237	0.0002	-4.99	0.12
 1.5M - <1.75M	109	76	185	0.0004	0.0133	0.0002	-4.44	0.06
@@ -901,5 +903,5 @@ txn_amt_30d	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	Perc
 250K - <500K	886	1129	2015	0.0041	0.1083	0.0023	-3.84	0.41
 500K - <750K	496	389	885	0.0018	0.0606	0.0008	-4.32	0.26
 750K - <1M	369	221	590	0.0012	0.0451	0.0005	-4.59	0.21
-Other	2815	290481	293296	0.5947	0.344	0.5989	0.55	0.14
+Other	0	56	56	0.0001	0.0	0.0001	4.75	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.6

@@ -1,22 +1,22 @@
-orig_channel	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+orig_channel	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Digital mobile channel	7354	224384	231738	0.4699	0.8986	0.4626	-0.66	0.29
 Enterprise channel	97	12763	12860	0.0261	0.0119	0.0263	0.8	0.01
 Physical retail channel	733	247858	248591	0.504	0.0896	0.511	1.74	0.73
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.03
 
-orig_os	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+orig_os	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 ANDROID	7088	350894	357982	0.7259	0.8661	0.7235	-0.18	0.03
 IOS	1015	127177	128192	0.2599	0.124	0.2622	0.75	0.1
 KIOSK	81	6934	7015	0.0142	0.0099	0.0143	0.37	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.13
 
-origination_type	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+origination_type	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
  	48	975	1023	0.0021	0.0059	0.002	-1.07	0.0
 DIGITAL	8103	478071	486174	0.9858	0.9901	0.9857	-0.0	0.0
 PHYSICAL	33	5959	5992	0.0121	0.004	0.0123	1.11	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.01
 
-origination_sub_type	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+origination_sub_type	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
  	48	975	1023	0.0021	0.0059	0.002	-1.07	0.0
 Enterprise_Digital	95	12543	12638	0.0256	0.0116	0.0259	0.8	0.01
 Enterprise_Kiosk	2	220	222	0.0005	0.0002	0.0005	0.62	0.0
@@ -25,17 +25,17 @@ Purely_Digital	7306	223409	230715	0.4678	0.8927	0.4606	-0.66	0.29
 Purely_Physical_Kiosk	31	5739	5770	0.0117	0.0038	0.0118	1.14	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.04
 
-carded_status	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+carded_status	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 NO	6649	153395	160044	0.3245	0.8124	0.3163	-0.94	0.47
 YES	1535	331610	333145	0.6755	0.1876	0.6837	1.29	0.64
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.11
 
-card_type	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+card_type	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 PHYSICAL_CARD	1535	331610	333145	0.6755	0.1876	0.6837	1.29	0.64
 VIRTUAL_CARD	6649	153395	160044	0.3245	0.8124	0.3163	-0.94	0.47
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.11
 
-orig_primary_source_of_funds	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+orig_primary_source_of_funds	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Allowance	909	38509	39418	0.0799	0.1111	0.0794	-0.34	0.01
 Business Proceeds (Entities only)	517	15344	15861	0.0322	0.0632	0.0316	-0.69	0.02
 Donation	4	259	263	0.0005	0.0005	0.0005	0.09	0.0
@@ -48,7 +48,7 @@ Remittance	182	10474	10656	0.0216	0.0222	0.0216	-0.03	0.0
 Salary	3154	232222	235376	0.4773	0.3854	0.4788	0.22	0.02
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.07
 
-orig_industry	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+orig_industry	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Accounting	135	6606	6741	0.0137	0.0165	0.0136	-0.19	0.0
 Automotive Dealing	28	2150	2178	0.0044	0.0034	0.0044	0.26	0.0
 Beauty and Personal Care	81	2858	2939	0.006	0.0099	0.0059	-0.52	0.0
@@ -72,7 +72,7 @@ Transportation	223	18342	18565	0.0376	0.0272	0.0378	0.33	0.0
 Unemployed/Student	2401	120542	122943	0.2493	0.2934	0.2485	-0.17	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.21
 
-orig_occupation	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+orig_occupation	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Accountant	87	2584	2671	0.0054	0.0106	0.0053	-0.69	0.0
 Aesthetic professional	9	413	422	0.0009	0.0011	0.0009	-0.26	0.0
 Bank employee	91	4357	4448	0.009	0.0111	0.009	-0.21	0.0
@@ -128,20 +128,20 @@ Television / Social Media	4	582	586	0.0012	0.0005	0.0012	0.9	0.0
 Uniformed personnel	19	5186	5205	0.0106	0.0023	0.0107	1.53	0.01
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.33
 
-athena_fraud_tag	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+athena_fraud_tag	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 CONFIRMED_FRAUD	2022	0	2022	0.0041	0.2471	0.0	0.0	-0.0
 NON_FRAUD	0	37	37	0.0001	0.0	0.0001	0.0	0.0
 NO_TAG	6162	54643	60805	0.1233	0.7529	0.1127	-1.9	1.22
 No Athena Tag	0	430325	430325	0.8725	0.0	0.8873	0.0	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.22
 
-acc_mgmt_channel	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+acc_mgmt_channel	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Digital mobile channel	7254	217810	225064	0.4563	0.8864	0.4491	-0.68	0.3
 Enterprise channel	101	15979	16080	0.0326	0.0123	0.0329	0.98	0.02
 Physical retail channel	829	251216	252045	0.5111	0.1013	0.518	1.63	0.68
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.0
 
-first_kiosk_interaction_organisation_site_name	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+first_kiosk_interaction_organisation_site_name	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Accenture 40th Anniversary Fun Run	0	8	8	0.0	0.0	0.0	0.0	0.0
 Accenture Cyberpark Tower 1 QC	0	104	104	0.0002	0.0	0.0002	0.0	0.0
 Accenture Filinvest Axis Tower 1 Muntinlupa	0	20	20	0.0	0.0	0.0	0.0	0.0
@@ -763,7 +763,7 @@ VIS_Project Colonnade Mall Cebu City Aug 2024	4	401	405	0.0008	0.0005	0.0008	0.5
 VRP Medical Center	1	6	7	0.0	0.0001	0.0	-2.29	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.3
 
-first_kiosk_interaction_organisation_presence_category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+first_kiosk_interaction_organisation_presence_category	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 AHMC	0	425	425	0.0009	0.0	0.0009	0.0	0.0
 Accenture	3	1187	1190	0.0024	0.0004	0.0024	1.9	0.0
 CSMC	1	242	243	0.0005	0.0001	0.0005	1.41	0.0
@@ -796,7 +796,7 @@ VRP	1	6	7	0.0	0.0001	0.0	-2.29	0.0
 Wodd Coffee	0	23	23	0.0	0.0	0.0	0.0	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.15
 
-first_kiosk_interaction_organisation_name	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+first_kiosk_interaction_organisation_name	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 ACN	1	178	179	0.0004	0.0001	0.0004	1.1	0.0
 AHMC	0	65	65	0.0001	0.0	0.0001	0.0	0.0
 ASIAN HOSPITAL	0	360	360	0.0007	0.0	0.0007	0.0	0.0
@@ -848,13 +848,13 @@ VIS	38	7723	7761	0.0157	0.0046	0.0159	1.23	0.01
 VRP	1	6	7	0.0	0.0001	0.0	-2.29	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.26
 
-first_kiosk_interaction_kiosk_interaction_type	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+first_kiosk_interaction_kiosk_interaction_type	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 CREATE_ACCOUNT	81	6934	7015	0.0142	0.0099	0.0143	0.37	0.0
 No Kiosk Interaction	6645	153366	160011	0.3244	0.812	0.3162	-0.94	0.47
 PRINT_CARD	1458	324705	326163	0.6613	0.1782	0.6695	1.32	0.65
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.12
 
-latest_kiosk_interaction_organisation_site_name	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+latest_kiosk_interaction_organisation_site_name	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 Accenture 40th Anniversary Fun Run	0	8	8	0.0	0.0	0.0	0.0	0.0
 Accenture Cyberpark Tower 1 QC	0	105	105	0.0002	0.0	0.0002	0.0	0.0
 Accenture Filinvest Axis Tower 1 Muntinlupa	0	20	20	0.0	0.0	0.0	0.0	0.0
@@ -1476,7 +1476,7 @@ VIS_Project Colonnade Mall Cebu City Aug 2024	4	401	405	0.0008	0.0005	0.0008	0.5
 VRP Medical Center	1	6	7	0.0	0.0001	0.0	-2.29	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.3
 
-latest_kiosk_interaction_organisation_presence_category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+latest_kiosk_interaction_organisation_presence_category	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 AHMC	0	423	423	0.0009	0.0	0.0009	0.0	0.0
 Accenture	3	1193	1196	0.0024	0.0004	0.0025	1.9	0.0
 CSMC	1	242	243	0.0005	0.0001	0.0005	1.41	0.0
@@ -1509,7 +1509,7 @@ VRP	1	6	7	0.0	0.0001	0.0	-2.29	0.0
 Wodd Coffee	0	23	23	0.0	0.0	0.0	0.0	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.15
 
-latest_kiosk_interaction_organisation_name	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+latest_kiosk_interaction_organisation_name	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 ACN	1	178	179	0.0004	0.0001	0.0004	1.1	0.0
 AHMC	0	64	64	0.0001	0.0	0.0001	0.0	0.0
 ASIAN HOSPITAL	0	359	359	0.0007	0.0	0.0007	0.0	0.0
@@ -1561,13 +1561,13 @@ VIS	38	7718	7756	0.0157	0.0046	0.0159	1.23	0.01
 VRP	1	6	7	0.0	0.0001	0.0	-2.29	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.26
 
-latest_kiosk_interaction_kiosk_interaction_type	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+latest_kiosk_interaction_kiosk_interaction_type	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 CREATE_ACCOUNT	4	29	33	0.0001	0.0005	0.0001	-2.1	0.0
 No Kiosk Interaction	6645	153366	160011	0.3244	0.812	0.3162	-0.94	0.47
 PRINT_CARD	1535	331610	333145	0.6755	0.1876	0.6837	1.29	0.64
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	1.11
 
-first_fila_bank_code	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+first_fila_bank_code	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 BPI	98	14152	14250	0.0289	0.012	0.0292	0.89	0.02
 CHINABANK	8	1158	1166	0.0024	0.001	0.0024	0.89	0.0
 No FILA Interaction	7936	462890	470826	0.9547	0.9697	0.9544	-0.02	0.0
@@ -1575,17 +1575,17 @@ RCBC	92	1570	1662	0.0034	0.0112	0.0032	-1.24	0.01
 UBP	50	5235	5285	0.0107	0.0061	0.0108	0.57	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.03
 
-final_tag	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+final_tag	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 CONFIRMED_FRAUD	7933	11	7944	0.0161	0.9693	0.0	-10.66	10.34
 NON_FRAUD	251	484994	485245	0.9839	0.0307	1.0	3.48	3.38
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	13.71
 
-dna_final_tag	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+dna_final_tag	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 CONFIRMED_FRAUD	8184	0	8184	0.0166	1.0	0.0	0.0	-0.0
 NON_FRAUD	0	485005	485005	0.9834	0.0	1.0	0.0	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-fraud_types	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+fraud_types	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 ATO	1557	0	1557	0.0032	0.1902	0.0	0.0	-0.0
 CBD	129	0	129	0.0003	0.0158	0.0	0.0	-0.0
 GAMIFICATION	2	0	2	0.0	0.0002	0.0	0.0	-0.0
@@ -1597,13 +1597,13 @@ SCAM	1364	0	1364	0.0028	0.1667	0.0	0.0	-0.0
 SMISHING	1	0	1	0.0	0.0001	0.0	0.0	-0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-fraud_channel_source	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+fraud_channel_source	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 ACTIIMIZE	2	0	2	0.0	0.0002	0.0	0.0	-0.0
 COMPLAINTS	8182	0	8182	0.0166	0.9998	0.0	0.0	-0.0
 NONE	0	485005	485005	0.9834	0.0	1.0	0.0	0.0
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.0
 
-matching_level	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+matching_level	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 LEVEL_0	93	3827	3920	0.0079	0.0114	0.0079	-0.36	0.0
 LEVEL_15	4642	158676	163318	0.3311	0.5672	0.3272	-0.55	0.13
 LEVEL_4	0	6	6	0.0	0.0	0.0	0.0	0.0
@@ -1612,17 +1612,17 @@ LEVEL_6	55	5561	5616	0.0114	0.0067	0.0115	0.53	0.0
 No Matching Level	3392	316913	320305	0.6495	0.4145	0.6534	0.46	0.11
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.25
 
-change_email_flag	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+change_email_flag	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	7045	481120	488165	0.9898	0.8608	0.992	0.14	0.02
 1	1139	3885	5024	0.0102	0.1392	0.008	-2.86	0.37
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.39
 
-change_mob_num_flag	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+change_mob_num_flag	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0	6771	478463	485234	0.9839	0.8273	0.9865	0.18	0.03
 1	1413	6542	7955	0.0161	0.1727	0.0135	-2.55	0.41
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.43
 
-flag_txn_dropoff_after_wk1	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
+flag_txn_dropoff_after_wk1	Category	CONFIRMED_FRAUD	NON_FRAUD	Grand Total	Share	PercentBad	PercentGood	WoE	IV
 0.0	7396	388540	395936	0.8028	0.9037	0.8011	-0.12	0.01
 1.0	788	96465	97253	0.1972	0.0963	0.1989	0.73	0.07
 Grand Total	8184	485005	493189	1.0	1.0	1.0	0.0	0.09

@@ -21,6 +21,7 @@
 *   **Data Dictionary Generation:** Automated metadata generation for features.
 *   **Data Visualization:** Apply principles from Cole Nussbaumer Knaflic's "Storytelling with Data" to create clear, concise, and impactful visualizations, with particular attention to the effective and intentional use of color palettes.
 *   **Custom Color Palette:** Utilize a predefined custom color palette for all visualizations to ensure consistency and adherence to branding/aesthetic guidelines.
+*   **Markdown in Python Scripts:** Use triple double-quoted strings (`"""..."""`) for multi-line Markdown explanations within Python scripts to facilitate easy copy-pasting.
 
 ## Cookiecutter Data Science Workflow
 
@@ -64,6 +65,13 @@
         *   Accounts with `survival_days` between 0-7 days are excluded for both fraud and non-fraud, as they typically lack sufficient behavioral data for modeling.
     *   **Timing:** Applied after initial zero-imputation and direct categorical imputation, but before further EDA or IV calculations, to ensure all subsequent analysis is on the correct, unbiased population.
 
+*   **Target Variable Transformation (`dna_final_tag` to `fraud_status`):**
+    *   **Description:** The categorical target variable `dna_final_tag` is converted into a binary numerical format (`fraud_status`) to make it suitable for machine learning algorithms.
+    *   **Treatment:**
+        *   `CONFIRMED_FRAUD` is mapped to `1`.
+        *   `NON_FRAUD` is mapped to `0`.
+    *   **Timing:** This transformation is performed just before calculating Information Value (IV) and other statistical measures that require a numeric target.
+
 ## Component relationships
 
 *   `bank_fraud/config.py`: Provides global configurations and paths to other modules.
@@ -71,3 +79,4 @@
 *   `bank_fraud/features.py`: Contains logic for feature engineering, dependent on raw/interim data.
 *   `bank_fraud/modeling/train.py` & `predict.py`: Utilize features and configurations for model operations.
 *   `notebooks/`: Interact with `bank_fraud/` modules for analysis and development.
+*   **`bank_fraud/utils/numerical_binning_definitions.py`:** New module containing pre-parsed numerical binning rules for optimized IV calculation.
