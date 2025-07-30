@@ -27,13 +27,15 @@
 
 *   **Makefile:** Use the Makefile for automating tasks such as data processing, model training, and environment setup.
 *   **Branching Strategy:** Create a new git branch for each new feature or experiment to maintain a clean and organized codebase.
-*   **Data Processing:** Raw data should be placed in `data/raw`. Scripts in `src/data` should be used to process the raw data and save the output to `data/processed`.
+*   **Data Ingestion & Anonymization (`1.0-mjv-data-ingestion-and-anonymization.py`):** Reads raw data from `data/raw`, performs initial cleaning and anonymization (e.g., hashing identifiers), and saves the interim dataset to `data/interim`.
+*   **Data Preparation (`2.0-mjv-data-preparation.py`):** Reads interim data from `data/interim`, performs missing value imputation, feature engineering (e.g., `survival_days`), and data filtering, saving the prepared dataset to `data/processed`.
+*   **Feature Selection & EDA (`3.0-mjv-feature-selection-and-eda.py`):** Reads prepared data from `data/processed`, conducts IV and correlation analysis, drops features, and performs initial EDA on the final feature set, saving the model-ready dataset to `data/processed`.
 *   **Notebooks for Exploration:** Use Jupyter notebooks in the `notebooks` directory for exploratory data analysis and prototyping. Refactor any reusable code into Python modules in the `src` directory.
 *   **Autoreload in Notebooks:** Use the `%autoreload` magic command in notebooks to automatically reload modules as they are updated.
 *   **Code Reviews:** For code reviews, commit both the `.ipynb` notebook file and an exported `.py` script to ensure that the code can be reviewed without needing to run the notebook.
 *   **Jupyter Notebook Workflow:**
     *   **Reading:** Read `.ipynb` files directly to understand their content.
-    *   **Editing/Writing:** Only modify the `.py` version of the notebook. The user will manually update the `.ipynb` file.
+    *   **Editing/Writing:** Only modify the `.py` version of the notebook, which are stored in `notebooks/to_be_deleted/py_version/`. The user will manually copy the content from these `.py` files to update the `.ipynb` files.
 
 ## Data Handling Strategies
 

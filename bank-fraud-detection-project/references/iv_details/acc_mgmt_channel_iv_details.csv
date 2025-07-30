@@ -1,0 +1,5 @@
+Category,CONFIRMED_FRAUD,NON_FRAUD,Grand Total,Share,PercentBad,PercentGood,WoE,IV
+Digital mobile channel,7254,217810,225064,0.4563,0.8864,0.4491,-0.68,0.3
+Enterprise channel,101,15979,16080,0.0326,0.0123,0.0329,0.98,0.02
+Physical retail channel,829,251216,252045,0.5111,0.1013,0.518,1.63,0.68
+Grand Total,8184,485005,493189,1.0,1.0,1.0,0.0,1.0

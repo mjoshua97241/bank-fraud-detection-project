@@ -1,0 +1,4 @@
+Category,CONFIRMED_FRAUD,NON_FRAUD,Grand Total,Share,PercentBad,PercentGood,WoE,IV
+0 - <200,8184,485004,493188,1.0,1.0,1.0,-0.0,0.0
+200+,0,1,1,0.0,0.0,0.0,0.72,0.0
+Grand Total,8184,485005,493189,1.0,1.0,1.0,0.0,0.0

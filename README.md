@@ -114,6 +114,6 @@ Building upon the current system, potential future enhancements for this project
 A detailed methodology document (akin to a science paper) explaining the project's approach, challenges, and impact, without revealing confidential data or proprietary code, is currently being prepared and will be linked here once published. This document serves as a comprehensive overview for understanding the project's depth and your problem-solving skills.
 
 ## Contact
-*   Email: amazonppc.mjosh@gmail.com
+*   Email: vargas.michaeljoshua@gmail.com
 *   LinkedIn: https://www.linkedin.com/in/mljosh/
 *   GitHub: https://github.com/mjoshua97241

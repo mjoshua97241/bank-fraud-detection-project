@@ -32,6 +32,7 @@ This project developed a comprehensive and scalable bank fraud detection system,
 │                         and configuration for tools like ruff.
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│   └── iv_details     <- Individual CSV files containing detailed IV calculations for each feature.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting

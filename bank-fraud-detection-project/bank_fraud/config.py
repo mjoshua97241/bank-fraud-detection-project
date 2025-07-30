@@ -18,6 +18,7 @@ EXTERNAL_DATA_DIR = DATA_DIR / 'external'
 NOTEBOOKS_DIR = PROJECT_ROOT / 'notebooks'
 MODELS_DIR = PROJECT_ROOT / 'models'
 REPORTS_DIR = PROJECT_ROOT / 'reports'
+REPORTS_FIGURES_DIR = REPORTS_DIR / 'figures'
 REFERENCES_DIR = PROJECT_ROOT / 'references'
 
 # --- Specific File Paths (add as needed) ---
