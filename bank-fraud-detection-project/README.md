@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-This project developed a comprehensive and scalable bank fraud detection system designed to enhance the efficiency and accuracy of fraud identification. It integrates advanced analytical models with intuitive visualization tools to prioritize alerts and uncover complex fraud networks. This capstone project was developed in collaboration with a Data Scientist mentor from the financial industry, drawing insights from real-world banking challenges while focusing on a proof-of-concept for academic purposes.
+This project developed a comprehensive and scalable bank fraud detection system, specifically focusing on an **early detection model** for **EFT (Electronic Funds Transfer) type transactions**. Leveraging an account dataset from **January 2025 to May 2025**, this system is designed to enhance the efficiency and accuracy of fraud identification. It integrates advanced analytical models with intuitive visualization tools to prioritize alerts and uncover complex fraud networks. This capstone project was developed in collaboration with a Data Scientist mentor from the financial industry, drawing insights from real-world banking challenges while focusing on a proof-of-concept for academic purposes.
 
 ## Project Organization
 
@@ -26,12 +26,13 @@ This project developed a comprehensive and scalable bank fraud detection system 
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+│                         `1.0-jqp-initial-data-exploration`. These notebooks follow a structured EDA process, emphasizing robust data quality checks and feature selection using metrics like Information Value (IV).
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for bank_fraud
 │                         and configuration for tools like ruff.
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│   └── iv_details     <- Individual CSV files containing detailed IV calculations for each feature.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -57,6 +58,10 @@ This project developed a comprehensive and scalable bank fraud detection system 
     │
     └── plots.py                <- Code to create visualizations
 ```
+
+### Data Scope and Rationale
+
+This project exclusively utilizes an account dataset from **January 2025 to May 2025**. This specific timeframe is chosen because fraud behaviors are constantly evolving. Focusing on recent data ensures our early detection model learns from the most relevant and up-to-date behavioral characteristics, as older datasets may not accurately reflect current fraud patterns.
 
 --------
 

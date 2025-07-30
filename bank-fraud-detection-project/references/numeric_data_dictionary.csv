@@ -1,0 +1,104 @@
+feature_name,data_type,description,null_count,unique_count,count,mean,std,min,25%,50%,75%,max
+change_email_occurence,int64,Contact information change frequency indicating potential account takeover attempts,0,11,1073778.0,0.012293043813525702,0.1353656268195498,0.0,0.0,0.0,0.0,21.0
+change_mob_num_occurence,int64,Contact information change frequency indicating potential account takeover attempts,0,13,1073778.0,0.01902534788382701,0.18194509107861542,0.0,0.0,0.0,0.0,93.0
+txn_count_week_wk1,float64,Weekly transaction count for wk1 showing account activity frequency,0,469,1073778.0,0.9649974203233815,10.235707893728678,0.0,0.0,0.0,1.0,706.0
+txn_amt_week_wk1,float64,Weekly transaction amount for wk1 indicating spending behavior patterns,0,30873,1073778.0,3277.3614794026325,37569.537879091564,0.0,0.0,0.0,85.0,16055000.0
+txn_velocity_week_wk1,float64,Transaction velocity (transactions per day) for wk1 indicating account usage intensity,0,469,1073778.0,0.13785677433191176,1.4622439848099646,0.0,0.0,0.0,0.1428571428571428,100.8571428571429
+txn_days_active_week_wk1,float64,Number of active transaction days in wk1 showing engagement consistency,0,8,1073778.0,0.4215610675577261,0.8561919152766319,0.0,0.0,0.0,1.0,7.0
+txn_count_week_wk2,float64,Weekly transaction count for wk2 showing account activity frequency,0,529,1073778.0,0.8212600742425343,11.852402772878053,0.0,0.0,0.0,0.0,936.0
+txn_amt_week_wk2,float64,Weekly transaction amount for wk2 indicating spending behavior patterns,0,27491,1073778.0,2719.3251045001844,39038.89895327581,0.0,0.0,0.0,0.0,19245000.0
+txn_velocity_week_wk2,float64,Transaction velocity (transactions per day) for wk2 indicating account usage intensity,0,529,1073778.0,0.11732286774893348,1.6932003961106286,0.0,0.0,0.0,0.0,133.7142857142857
+txn_days_active_week_wk2,float64,Number of active transaction days in wk2 showing engagement consistency,0,8,1073778.0,0.24765919957384114,0.7656909115833052,0.0,0.0,0.0,0.0,7.0
+txn_count_week_wk3,float64,Weekly transaction count for wk3 showing account activity frequency,0,493,1073778.0,0.6365906174274385,9.504915008443229,0.0,0.0,0.0,0.0,772.0
+txn_amt_week_wk3,float64,Weekly transaction amount for wk3 indicating spending behavior patterns,0,28702,1073778.0,2299.083564377367,30113.387871839222,0.0,0.0,0.0,0.0,3544830.0
+txn_velocity_week_wk3,float64,Transaction velocity (transactions per day) for wk3 indicating account usage intensity,0,493,1073778.0,0.09094151677534837,1.357845001194688,0.0,0.0,0.0,0.0,110.2857142857143
+txn_days_active_week_wk3,float64,Number of active transaction days in wk3 showing engagement consistency,0,8,1073778.0,0.2321504072536409,0.7409405896319808,0.0,0.0,0.0,0.0,7.0
+txn_count_week_wk4,float64,Weekly transaction count for wk4 showing account activity frequency,0,429,1073778.0,0.617785985557536,7.839373599551777,0.0,0.0,0.0,0.0,713.0
+txn_amt_week_wk4,float64,Weekly transaction amount for wk4 indicating spending behavior patterns,0,34336,1073778.0,2582.327178541561,33900.173166831286,0.0,0.0,0.0,0.0,4735400.0
+txn_velocity_week_wk4,float64,Transaction velocity (transactions per day) for wk4 indicating account usage intensity,0,429,1073778.0,0.0882551407939337,1.1199105142360493,0.0,0.0,0.0,0.0,101.8571428571429
+txn_days_active_week_wk4,float64,Number of active transaction days in wk4 showing engagement consistency,0,10,1073778.0,0.28332951503942155,0.8901046595328775,0.0,0.0,0.0,0.0,9.0
+txn_velocity_delta_wk2_vs_wk1,float64,Change in transaction velocity between weeks indicating behavioral shifts or anomalies,0,1067,1073778.0,0.006684542136004171,0.8930140430655487,-84.0,0.0,0.0,0.0,111.7142857142857
+txn_velocity_delta_wk3_vs_wk2,float64,Change in transaction velocity between weeks indicating behavioral shifts or anomalies,0,952,1073778.0,-0.01261274277763719,0.8979534954886732,-108.8571428571429,0.0,0.0,0.0,95.14285714285714
+txn_velocity_delta_wk4_vs_wk3,float64,Change in transaction velocity between weeks indicating behavioral shifts or anomalies,0,844,1073778.0,0.004519955308665822,0.7888257138486899,-71.85714285714286,0.0,0.0,0.0,65.71428571428571
+txn_velocity_accel_wk3,float64,Transaction velocity acceleration showing rapid behavior changes potentially linked to fraud,0,1218,1073778.0,-0.025808340803619156,1.261428210480517,-211.0,0.0,0.0,0.0,89.57142857142858
+txn_velocity_accel_wk4,float64,Transaction velocity acceleration showing rapid behavior changes potentially linked to fraud,0,933,1073778.0,-0.006395708823026199,0.952893815371785,-115.7142857142857,0.0,0.0,0.0,84.42857142857143
+txn_count_30d,float64,Total transaction count over 30-day period showing overall account activity,0,1089,1073778.0,3.0406340975508903,31.297570928497944,0.0,0.0,0.0,1.0,2243.0
+txn_amt_30d,float64,Total transaction amount over 30-day period indicating financial flow volume,0,75731,1073778.0,10878.097326821742,106761.65659365246,0.0,0.0,0.0,740.0,20326001.0
+txn_velocity_30d,float64,Average daily transaction velocity over 30-day period showing sustained activity level,0,1089,1073778.0,0.10135446991836299,1.0432523642825142,0.0,0.0,0.0,0.03333333333333333,74.76666666666667
+txn_days_active_30d,float64,Feature txn_days_active_30d providing context for fraud detection and risk assessment,0,31,1073778.0,1.1847001894246296,2.5471912508778574,0.0,0.0,0.0,1.0,30.0
+txn_count_day_volatility_30d,float64,Total transaction count over 30-day period showing overall account activity,0,9033,1073778.0,0.1512892064685171,1.3962751827227735,0.0,0.0,0.0,0.0,443.3559518039653
+txn_amt_day_volatility_30d,float64,Total transaction amount over 30-day period indicating financial flow volume,0,143080,1073778.0,1302.5285745197493,12227.073721197848,0.0,0.0,0.0,0.0,7552549.790192272
+txn_count_vol_score_wk1,float64,Volatility score for wk1 measuring transaction pattern irregularity,0,3604,1073778.0,0.017969613028921683,0.17310682258759053,0.0,0.0,0.0,0.0,61.51828996322963
+txn_amt_vol_score_wk1,float64,Volatility score for wk1 measuring transaction pattern irregularity,0,56380,1073778.0,2.4286034439992794,216.37843774243171,0.0,0.0,0.0,0.0,186973.35892911
+txn_count_vol_score_wk2,float64,Volatility score for wk2 measuring transaction pattern irregularity,0,3688,1073778.0,0.012824270765211442,0.23899819127550312,0.0,0.0,0.0,0.0,221.6779759019826
+txn_amt_vol_score_wk2,float64,Volatility score for wk2 measuring transaction pattern irregularity,0,43890,1073778.0,3.4234070548655273,174.39110003612006,0.0,0.0,0.0,0.0,41825.74416427522
+txn_count_vol_score_wk3,float64,Volatility score for wk3 measuring transaction pattern irregularity,0,2942,1073778.0,0.01278628979591478,0.17234127135176705,0.0,0.0,0.0,0.0,50.55813485483815
+txn_amt_vol_score_wk3,float64,Volatility score for wk3 measuring transaction pattern irregularity,0,43474,1073778.0,3.926860459760073,192.6069113262383,0.0,0.0,0.0,0.0,37028.51472793126
+txn_count_vol_score_wk4,float64,Volatility score for wk4 measuring transaction pattern irregularity,0,2869,1073778.0,0.013920797663882096,0.10532120324380484,0.0,0.0,0.0,0.0,17.59058189567848
+txn_amt_vol_score_wk4,float64,Volatility score for wk4 measuring transaction pattern irregularity,0,54367,1073778.0,3.259099790855503,188.18040102534667,0.0,0.0,0.0,0.0,50617.59483397297
+max_txn_count_day,float64,Maximum daily txn indicating peak account usage or potential abuse,0,206,1073778.0,0.8510064463976725,4.592475261196807,0.0,0.0,0.0,1.0,628.0
+min_txn_count_day,float64,Minimum daily txn showing baseline account activity,0,76,1073778.0,0.45989953230556035,1.0766500523629732,0.0,0.0,0.0,1.0,137.0
+max_txn_amt_day,float64,Maximum daily txn indicating peak account usage or potential abuse,0,43400,1073778.0,4068.4322230386542,31427.365569716192,0.0,0.0,0.0,500.0,14400000.0
+min_txn_amt_day,float64,Minimum daily txn showing baseline account activity,0,18608,1073778.0,1023.9447745995916,9369.775081650765,0.0,0.0,0.0,101.0,2000000.0
+avg_amt_in_day,float64,Average daily amt_in indicating typical account behavior,0,68730,1073778.0,2064.969147500515,15417.310476330444,0.0,0.0,0.0,166.6666666666667,5351666.666666667
+avg_amt_out_day,float64,Average daily amt_out indicating typical account behavior,0,43578,1073778.0,689.0217756384504,3616.207664077829,0.0,0.0,0.0,0.0,99979.0
+avg_net_flow_amt_day,float64,Average daily net_flow_amt indicating typical account behavior,0,101991,1073778.0,1375.947371862064,14592.654437649693,-80000.0,0.0,0.0,100.0,5351666.666666667
+avg_inflow_outflow_ratio_day,float64,Average daily inflow_outflow_ratio indicating typical account behavior,0,148146,1073778.0,729.468297889317,10802.457951226326,0.0,0.0,0.0,2.1638659349090807,5351666.666666667
+num_same_day_cico_days,float64,Cash-in-cash-out same day patterns potentially indicating money laundering behavior,0,30,1073778.0,0.17861978919292443,0.9970528121443026,0.0,0.0,0.0,0.0,29.0
+num_inflow_days,float64,Numeric metric related to num inflow days for quantitative risk assessment,0,31,1073778.0,0.8002343128654154,1.902988198343383,0.0,0.0,0.0,1.0,30.0
+percent_inflow_same_day_out,float64,Numeric metric related to percent inflow same day out for quantitative risk assessment,0,286,1073778.0,0.031230240899708044,0.11895639933370691,0.0,0.0,0.0,0.0,0.9666666666666667
+count_INSTAPAY_IN,float64,Number of incoming transactions via InstaPay (real-time) network showing payment preference,0,333,1073778.0,1.1845176563498228,6.858123055534989,0.0,0.0,0.0,1.0,1207.0
+count_INSTAPAY_OUT,float64,Number of incoming transactions via InstaPay (real-time) network showing payment preference,0,1011,1073778.0,1.8353300216618333,28.690472097210602,0.0,0.0,0.0,0.0,2234.0
+count_PESONET_IN,float64,Number of incoming transactions via PESONet (batch) network showing institutional payment patterns,0,37,1073778.0,0.020785488248036374,0.6965700019821381,0.0,0.0,0.0,0.0,628.0
+count_PESONET_OUT,float64,Number of outgoing transactions via PESONet (batch) network showing institutional payment patterns,0,2,1073778.0,9.312911979943713e-07,0.0009650342988701616,0.0,0.0,0.0,0.0,1.0
+count_total_in,float64,Numeric metric related to count total in for quantitative risk assessment,0,336,1073778.0,1.2053031445978593,6.905219871371593,0.0,0.0,0.0,1.0,1207.0
+count_total_out,float64,Numeric metric related to count total out for quantitative risk assessment,0,1011,1073778.0,1.8353309529530313,28.690472118572004,0.0,0.0,0.0,0.0,2234.0
+amount_INSTAPAY_IN,float64,Total amount received via InstaPay (real-time) network indicating financial flow volume,0,55274,1073778.0,7765.509312148321,86355.00618532427,0.0,0.0,0.0,200.0,19998001.0
+amount_INSTAPAY_OUT,float64,Total amount received via InstaPay (real-time) network indicating financial flow volume,0,31951,1073778.0,2633.7249234292362,25560.997671418685,0.0,0.0,0.0,0.0,1489761.0
+amount_PESONET_IN,float64,Total amount received via PESONet (batch) network indicating bulk payment behavior,0,3531,1073778.0,478.8621599529884,24041.30900942243,0.0,0.0,0.0,0.0,16000000.0
+amount_PESONET_OUT,float64,Total amount sent via PESONet (batch) network indicating bulk payment behavior,0,2,1073778.0,0.0009312911979943712,0.9650342988670592,0.0,0.0,0.0,0.0,1000.0
+total_amount_in,float64,Numeric metric related to total amount in for quantitative risk assessment,0,57470,1073778.0,8244.371472101313,90440.9286527833,0.0,0.0,0.0,200.0,19998001.0
+total_amount_out,float64,Numeric metric related to total amount out for quantitative risk assessment,0,31951,1073778.0,2633.725854720434,25560.99763239714,0.0,0.0,0.0,0.0,1489761.0
+max_amount_INSTAPAY_IN,float64,Total amount received via InstaPay (real-time) network indicating financial flow volume,0,25241,1073778.0,2058.733908834042,7052.923511631687,0.0,0.0,0.0,130.0,50000.0
+max_amount_INSTAPAY_OUT,float64,Total amount received via InstaPay (real-time) network indicating financial flow volume,0,13406,1073778.0,905.9857996718132,4466.694760502951,0.0,0.0,0.0,0.0,50000.0
+max_amount_PESONET_IN,float64,Total amount received via PESONet (batch) network indicating bulk payment behavior,0,3031,1073778.0,203.90332294012364,8997.964921512954,0.0,0.0,0.0,0.0,7000000.0
+max_amount_PESONET_OUT,float64,Total amount sent via PESONet (batch) network indicating bulk payment behavior,0,2,1073778.0,0.0009312911979943712,0.9650342988670592,0.0,0.0,0.0,0.0,1000.0
+min_amount_INSTAPAY_IN,float64,Total amount received via InstaPay (real-time) network indicating financial flow volume,0,14656,1073778.0,678.32474641872,3508.083102368216,0.0,0.0,0.0,100.0,50000.0
+min_amount_INSTAPAY_OUT,float64,Total amount received via InstaPay (real-time) network indicating financial flow volume,0,9672,1073778.0,384.1094754595459,2596.9160657223615,0.0,0.0,0.0,0.0,50000.0
+min_amount_PESONET_IN,float64,Total amount received via PESONet (batch) network indicating bulk payment behavior,0,2722,1073778.0,161.92919623981865,5239.865352508014,0.0,0.0,0.0,0.0,1600000.0
+min_amount_PESONET_OUT,float64,Total amount sent via PESONet (batch) network indicating bulk payment behavior,0,2,1073778.0,0.0009312911979943712,0.9650342988670592,0.0,0.0,0.0,0.0,1000.0
+txn_days_active,float64,Numeric metric related to txn days active for quantitative risk assessment,0,31,1073778.0,1.1847001894246296,2.5471912508778574,0.0,0.0,0.0,1.0,30.0
+weekend_txn_count,float64,Weekly transaction count for count showing account activity frequency,0,445,1073778.0,0.8028409969286017,8.717182942718946,0.0,0.0,0.0,0.0,721.0
+night_txn_count,float64,Nighttime transaction activity potentially indicating suspicious or automated behavior,0,448,1073778.0,1.00299037603676,9.610010781904347,0.0,0.0,0.0,0.0,982.0
+hour_entropy,float64,Hour-of-day transaction entropy measuring predictability of timing patterns,0,11669,1073778.0,0.40553468556942274,0.858801284249246,0.0,0.0,0.0,0.0,4.554227289294026
+weekday_entropy,float64,Day-of-week transaction entropy indicating schedule regularity or randomness,0,12285,1073778.0,0.3199268291248147,0.6777543063427345,0.0,0.0,0.0,0.0,2.807354922057605
+min_time_btwn_txns_sec,float64,Time intervals between transactions showing account usage rhythm and automation patterns,0,131956,1073778.0,57621.16779911676,249402.80859152478,0.0,0.0,0.0,0.0,2578572.0
+min_time_btwn_txns_days,float64,Minimum daily time showing baseline account activity,0,131956,1073778.0,0.6669116643416294,2.8866065809215495,0.0,0.0,0.0,0.0,29.84458333333333
+max_time_btwn_txns_days,float64,Maximum daily time indicating peak account usage or potential abuse,0,224626,1073778.0,1.9875385903143445,4.756721886690249,0.0,0.0,0.0,0.0,29.84458333333333
+avg_time_btwn_txns_days,float64,Average daily time_btwn_txnss indicating typical account behavior,0,236851,1073778.0,1.153282789834266,3.278313653950792,0.0,0.0,0.0,0.0,29.84458333333333
+cv_time_btwn_txns,float64,Time intervals between transactions showing account usage rhythm and automation patterns,0,174186,1073778.0,0.1939702685888437,0.5410012177345628,0.0,0.0,0.0,0.0,24.24784000051288
+min_txn_sessions_per_day_3min,float64,Minimum daily txn showing baseline account activity,0,47,1073778.0,0.4330913838800944,0.7041946904024785,0.0,0.0,0.0,1.0,64.0
+max_txn_sessions_per_day_3min,float64,Maximum daily txn indicating peak account usage or potential abuse,0,113,1073778.0,0.7207085635950821,2.916146648229427,0.0,0.0,0.0,1.0,127.0
+min_txn_sessions_per_day_5min,float64,Minimum daily txn showing baseline account activity,0,38,1073778.0,0.4268815341718679,0.6371230373660663,0.0,0.0,0.0,1.0,43.0
+max_txn_sessions_per_day_5min,float64,Maximum daily txn indicating peak account usage or potential abuse,0,84,1073778.0,0.6802784188165524,2.374727261514665,0.0,0.0,0.0,1.0,85.0
+active_days_with_txns,float64,Numeric metric related to active days with txns for quantitative risk assessment,0,31,1073778.0,1.1847001894246296,2.5471912508778574,0.0,0.0,0.0,1.0,30.0
+num_unique_source_accounts,float64,Number of unique counterparties indicating account's network diversity and potential risk,0,208,1073778.0,0.637655083266746,3.3791401820904916,0.0,0.0,0.0,1.0,750.0
+num_unique_source_names,float64,Number of unique counterparties indicating account's network diversity and potential risk,0,201,1073778.0,0.6175447811372555,3.333963403919949,0.0,0.0,0.0,1.0,735.0
+num_unique_destination_accounts,float64,Number of unique counterparties indicating account's network diversity and potential risk,0,861,1073778.0,1.219387061385128,21.543105565891704,0.0,0.0,0.0,0.0,1633.0
+num_unique_destination_names,float64,Number of unique counterparties indicating account's network diversity and potential risk,0,837,1073778.0,1.2111497907388677,21.227269090271108,0.0,0.0,0.0,0.0,1633.0
+repeat_sources,float64,Numeric metric related to repeat sources for quantitative risk assessment,0,89,1073778.0,0.19501889589840732,1.0351268239750087,0.0,0.0,0.0,0.0,202.0
+total_sources,float64,Numeric metric related to total sources for quantitative risk assessment,0,208,1073778.0,0.40642944817271354,3.351203334310413,0.0,0.0,0.0,0.0,750.0
+repeat_counterparty_ratio_in,float64,Ratio of repeated vs new counterparties indicating relationship-based vs random transaction patterns,0,856,1073778.0,0.09789396532503275,0.27142118117600894,0.0,0.0,0.0,0.0,1.0
+repeat_destinations,float64,Numeric metric related to repeat destinations for quantitative risk assessment,0,94,1073778.0,0.10168209816181743,1.3061737088788925,0.0,0.0,0.0,0.0,447.0
+total_destinations,float64,Numeric metric related to total destinations for quantitative risk assessment,0,850,1073778.0,0.9610506082262814,21.225327680626286,0.0,0.0,0.0,0.0,1633.0
+repeat_counterparty_ratio_out,float64,Ratio of repeated vs new counterparties indicating relationship-based vs random transaction patterns,0,1529,1073778.0,0.04529206886538764,0.18851295206223423,0.0,0.0,0.0,0.0,1.0
+amt_from_source,float64,Numeric metric related to amt from source for quantitative risk assessment,0,42528,1073778.0,4620.273161649801,48193.647681804556,0.0,0.0,0.0,200.0,19588000.0
+rank,float64,Numeric metric related to rank for quantitative risk assessment,0,2,1073778.0,0.3319494346131137,0.47091317033463614,0.0,0.0,0.0,1.0,1.0
+total_in,float64,Numeric metric related to total in for quantitative risk assessment,0,57469,1073778.0,8244.371472101313,90440.9286527833,0.0,0.0,0.0,200.0,19998001.0
+top_source_share_in,float64,Concentration of transactions with primary counterparty indicating dependency or control patterns,0,64055,1073778.0,0.2964895848953849,0.43514802753751847,0.0,0.0,0.0,0.8547008547008547,1.000000000000001
+amt_to_destination,float64,Numeric metric related to amt to destination for quantitative risk assessment,0,21480,1073778.0,1486.816712393065,12696.322472649159,0.0,0.0,0.0,0.0,1236996.0
+rank.1,float64,Numeric metric related to rank.1 for quantitative risk assessment,0,2,1073778.0,0.23162702160036805,0.42187214913319576,0.0,0.0,0.0,0.0,1.0
+total_out,float64,Numeric metric related to total out for quantitative risk assessment,0,31951,1073778.0,2633.725854720434,25560.99763239714,0.0,0.0,0.0,0.0,1489761.0
+top_destination_share_out,float64,Concentration of transactions with primary counterparty indicating dependency or control patterns,0,44807,1073778.0,0.20629707769972178,0.38788115015995095,0.0,0.0,0.0,0.0,1.000000000000001
+source_entropy_in,float64,Feature source_entropy_in providing context for fraud detection and risk assessment,0,6757,1073778.0,0.15043126971837822,0.4979756495778184,0.0,0.0,0.0,0.0,9.297884251791295
+destination_entropy_out,float64,Feature destination_entropy_out providing context for fraud detection and risk assessment,0,5616,1073778.0,0.12106530794158041,0.5475293607022523,0.0,0.0,0.0,0.0,10.64582127933273

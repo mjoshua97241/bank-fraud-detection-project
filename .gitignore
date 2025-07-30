@@ -184,3 +184,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+-p/
+
+# Rules
+memory_bank.md
+
