@@ -1,32 +1,32 @@
 from pathlib import Path
+import os
 
-from dotenv import load_dotenv
-from loguru import logger
+# Determine the project root dynamically
+# This assumes config.py is located at bank_fraud/config.py
+# So, we go up two levels from config.py to reach the project root
+# bank_fraud/config.py -> bank_fraud/ -> project_root/
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-# Load environment variables from .env file if it exists
-load_dotenv()
+# --- Data Directories ---
+DATA_DIR = PROJECT_ROOT / 'data'
+RAW_DATA_DIR = DATA_DIR / 'raw'
+INTERIM_DATA_DIR = DATA_DIR / 'interim'
+PROCESSED_DATA_DIR = DATA_DIR / 'processed'
+EXTERNAL_DATA_DIR = DATA_DIR / 'external'
 
-# Paths
-PROJ_ROOT = Path(__file__).resolve().parents[1]
-logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
+# --- Other Important Directories (add as needed) ---
+NOTEBOOKS_DIR = PROJECT_ROOT / 'notebooks'
+MODELS_DIR = PROJECT_ROOT / 'models'
+REPORTS_DIR = PROJECT_ROOT / 'reports'
+REPORTS_FIGURES_DIR = REPORTS_DIR / 'figures'
+REFERENCES_DIR = PROJECT_ROOT / 'references'
 
-DATA_DIR = PROJ_ROOT / "data"
-RAW_DATA_DIR = DATA_DIR / "raw"
-INTERIM_DATA_DIR = DATA_DIR / "interim"
-PROCESSED_DATA_DIR = DATA_DIR / "processed"
-EXTERNAL_DATA_DIR = DATA_DIR / "external"
+# --- Specific File Paths (add as needed) ---
+RAW_ANONYMIZED_DATASET = RAW_DATA_DIR / 'anonymized_output_dataset.parquet'
+INTERIM_DATASET_V01 = INTERIM_DATA_DIR / '0.01_dataset.parquet'
+INTERIM_EDA_DATASET = INTERIM_DATA_DIR / '1.0_initial_eda_dataset.parquet'
+DATA_DICTIONARIES_DIR = REFERENCES_DIR
 
-MODELS_DIR = PROJ_ROOT / "models"
-
-REPORTS_DIR = PROJ_ROOT / "reports"
-FIGURES_DIR = REPORTS_DIR / "figures"
-
-# If tqdm is installed, configure loguru with tqdm.write
-# https://github.com/Delgan/loguru/issues/135
-try:
-    from tqdm import tqdm
-
-    logger.remove(0)
-    logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True)
-except ModuleNotFoundError:
-    pass
+# Example of how to use it in a notebook:
+# from bank_fraud.config import RAW_ANONYMIZED_DATASET
+# df = pd.read_parquet(RAW_ANONYMIZED_DATASET)
