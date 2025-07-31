@@ -38,9 +38,8 @@
 
 ## Next steps
 
-*   Implement the plan for `5.0-mjv-model-training-and-evaluation.ipynb` as documented in `PLAN.md`.
-*   Generate the corresponding `.py` script for review.
-*   Analyze the results of the model evaluation and business simulation.
+*   Continue with Phase 5: Implement **Step 3: Model Training and Hyperparameter Tuning** in the `5.0-mjv-model-training-and-evaluation.py` script.
+*   Tune two separate XGBoost models: one for Precision and one for AUC-PR.
 
 ## Active decisions and considerations
 

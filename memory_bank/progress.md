@@ -33,10 +33,10 @@
 
 ## Current status
 
-*   **Setup Phase:** Core project structure, documentation, and agent configuration are in place. Data pipeline is modularized.
-*   **Data Understanding & Preparation:** Raw data is ingested and anonymized. Data is prepared, cleaned, and filtered. Feature selection based on IV and correlation is complete, and the processed data is saved as `3.0_selected_features.parquet`.
-*   **Detailed EDA for final features is complete, with all plots generated and saved.**
-*   **Modeling Phase:** The plan for model training, evaluation, and business simulation is documented in `PLAN.md`. The project is ready to begin implementation of the modeling script.
+*   **Setup Phase:** Core project structure and data pipeline are complete.
+*   **Data Understanding & Preparation:** Complete. Final dataset for modeling is located in `data/processed`.
+*   **Detailed EDA:** Complete.
+*   **Modeling Phase:** In progress. The script `5.0-mjv-model-training-and-evaluation.py` has been created. Data loading, splitting, and the preprocessing pipeline construction are complete. The project is ready for model tuning.
 
 ## Known issues
 
