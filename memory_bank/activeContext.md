@@ -2,18 +2,9 @@
 
 ## Current work focus
 
-*   Integrating the Memory Bank system into the workflow.
-*   Refining data dictionary generation and access.
-*   **Implementing modular data pipeline:**
-    *   `1.0-mjv-data-ingestion-and-anonymization.py` (data ingestion and anonymization)
-    *   `2.0-mjv-data-preparation.py` (data preparation, cleaning, and initial filtering, extracted from original `1.0-mjv-initial-data-exploration.py`)
-    *   `3.0-mjv-feature-selection-and-eda.py` (feature selection and initial EDA, extracted from original `1.0-mjv-initial-data-exploration.py`)
-*   Adopting a new Jupyter Notebook workflow: read `.ipynb`, edit `.py`.
-*   **Feature selection and initial EDA are complete, resulting in a refined dataset for further analysis.**
-*   **IV and WoE calculation code for categorical and numerical features has been refined, ensuring robust column handling, consistent naming, and rounding to 2 decimal places for IV/WoE and 4 for percentages. Detailed IV results for each feature are now saved to individual CSV files in `references/iv_details/`.**
-*   **Columns have been dropped based on IV calculation and feature selection criteria.**
-*   **IV interpretation and reasons in the Markdown table and `get_predictive_power` functions in the feature selection script have been updated.**
-*   *   **`4.0-mjv-eda-final-features.ipynb` has been initialized, `FEATURE_CATEGORIES` populated, `plot_feature_iv` function implemented, and feature lists refined based on IV for Transaction Size and Frequency, Network Behaviors, Time-Based Behaviors, and Fund Flow Patterns. The `plot_feature_distribution` function now reads IV details from individual CSV files in `references/iv_details/`. All plots for the final selected features have been generated, and the `plot_feature_distribution` function has been refined to incorporate storytelling with data principles for enhanced clarity and impact, including parameter renaming, x-axis label re-addition, and visual adjustments to spines and labels.**
+*   **Executing Phase 5: Model Training, Evaluation, and Business Simulation.**
+    *   Following the detailed plan in `PLAN.md` to create the `5.0-mjv-model-training-and-evaluation.ipynb` notebook.
+    *   This involves data splitting, building a preprocessing pipeline, tuning two separate XGBoost models (for precision and AUC-PR), and conducting a cost-sensitive evaluation on the holdout set.
 
 ## Recent changes
 
@@ -47,10 +38,9 @@
 
 ## Next steps
 
-*   Analyze the generated plots from `4.0-mjv-eda-final-features.py` to synthesize key insights and fraud patterns.
-*   Document the findings from the EDA.
-*   Plan the subsequent steps for model training and evaluation based on the EDA insights.
-*   Create a new notebook, `5.0-mjv-model-training-and-evaluation.ipynb`, to begin the modeling phase.
+*   Implement the plan for `5.0-mjv-model-training-and-evaluation.ipynb` as documented in `PLAN.md`.
+*   Generate the corresponding `.py` script for review.
+*   Analyze the results of the model evaluation and business simulation.
 
 ## Active decisions and considerations
 
@@ -62,3 +52,4 @@
 *   **WoE and IV calculation for categorical features will use the `iv_calculation.py` script.**
 *   **Numerical features will be binned using user-provided specific definitions before IV calculation.**
 *   **Decision to pre-process numerical binning rules for optimization.**
+*   **Modeling Preprocessing Strategy:** To prevent data leakage, preprocessing steps like one-hot encoding and standardization will be fitted *only* on the training data and then applied to transform the validation and holdout sets.**

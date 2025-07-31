@@ -1,30 +1,76 @@
-# Development Plan
+# Project Plan
 
-This file outlines the next steps for the project.
+This document outlines the plan for the bank fraud detection project.
 
----
+## Phase 1: Data Ingestion and Anonymization
 
-### **Task for Next Session: Consolidate EDA Notebook**
+- [X] Ingest raw data.
+- [X] Anonymize sensitive columns.
+- [X] Save processed data to `data/interim`.
 
-**Objective:** Create the first official notebook for this project, `1.0-mjv-initial-data-exploration.ipynb`, by pulling relevant code from existing notebooks in another directory.
+## Phase 2: Data Preparation
 
-**Guiding Document:** [docs/eda_checklist.md](./docs/eda_checklist.md)
+- [X] Perform data cleaning and filtering.
+- [X] Handle missing values.
+- [X] Save prepared data to `data/processed`.
 
-**Steps:**
+## Phase 3: Feature Selection and EDA
 
-1.  **Create the Notebook:** Create a new, empty Jupyter notebook at `bank-fraud-detection-project/notebooks/1.0-mjv-initial-data-exploration.ipynb`.
+- [X] Conduct Information Value (IV) and correlation analysis.
+- [X] Select the most predictive features.
+- [X] Perform Exploratory Data Analysis (EDA) on the selected features.
+- [X] Save the final feature set to `data/interim`.
 
-2.  **Review the Checklist:** Open `docs/eda_checklist.md` to use as a guide for the structure and content of the new notebook.
+## Phase 4: Final Feature EDA
 
-3.  **Locate Source Code:** Navigate to the directory containing your existing, messy notebooks.
-    -   **Source Directory:** `[PASTE THE PATH TO YOUR OLD NOTEBOOKS HERE]`
+- [X] Generate and analyze distribution plots for all final features.
+- [X] Synthesize key insights and fraud patterns from the visualizations.
 
-4.  **Transfer Code Systematically:** Go through the `eda_checklist.md` phase by phase.
-    -   For each item in the checklist (e.g., "Load Data", "Check for Duplicates"), find the corresponding code block in your old notebooks.
-    -   Copy the relevant code and paste it into a new cell in `1.0-mjv-initial-data-exploration.ipynb`.
+## Phase 5: Model Training, Evaluation, and Business Simulation
 
-5.  **Organize and Document:**
-    -   Use Markdown headings in the new notebook to clearly label each phase and step, matching the structure of the checklist (e.g., `## Phase 1: Basic Data Inspection`).
-    -   Add comments or markdown notes as needed to explain the code and its output.
+**Objective:** To develop, tune, and evaluate a machine learning model for fraud detection, and to translate its output into a cost-sensitive, actionable business decision framework.
 
-By the end of this task, we will have a clean, well-documented, and reproducible notebook for our initial data exploration that follows the project's best practices.
+**File:** `5.0-mjv-model-training-and-evaluation.ipynb` (and its corresponding `.py` script).
+
+**Plan:**
+
+1.  **Setup and Data Preparation:**
+    *   Load the final processed dataset (`3.0_selected_features.parquet`).
+    *   Identify and separate numerical and categorical features based on our `FEATURE_CATEGORIES` dictionary.
+    *   Split the data into **training, validation, and holdout sets** using a stratified split to maintain the fraud ratio across all sets. This establishes our foundation for robust evaluation.
+
+2.  **Preprocessing Pipeline Construction:**
+    *   Create a `ColumnTransformer`-based preprocessing pipeline.
+    *   This pipeline will apply `StandardScaler` to all numerical features and `OneHotEncoder` (with `handle_unknown='ignore'`) to all categorical features.
+    *   This single pipeline object will be used throughout, ensuring we **fit only on the training data** and transform all three datasets consistently.
+
+3.  **Model Training and Hyperparameter Tuning (Gate A & B Models):**
+    *   We will focus directly on the `XGBoost` classifier, as established in your analysis.
+    *   **Gate A Model (Precision-Tuned):**
+        *   Create a full `Pipeline` that includes our preprocessor and the XGBoost classifier.
+        *   Define a hyperparameter grid for `GridSearchCV`.
+        *   Perform the grid search on the **training data**, using `scoring='precision'` to find the best parameters for the auto-blocking model.
+        *   Save the best resulting model as `block_model.pkl`.
+    *   **Gate B Model (AUC-PR-Tuned):**
+        *   Create a second, similar `Pipeline`.
+        *   Perform another `GridSearchCV` on the **training data**, but this time using `scoring='average_precision'` to find the best parameters for the analyst review queue model.
+        *   Save this best model as `review_model_aucp.pkl`.
+
+4.  **Business Simulation and Evaluation on Holdout Set:**
+    *   Load the two saved models (`block_model.pkl` and `review_model_aucp.pkl`).
+    *   **All analysis in this step will use the unseen holdout set.**
+    *   **Gate A Analysis (Auto-Blocking):**
+        *   Predict probabilities on the holdout set with the `block_model`.
+        *   Conduct a threshold sweep analysis to create a table showing the trade-offs between `precision`, `alerts/day`, `FP/day`, and `Cost_FP/day`.
+    *   **Gate B Analysis (Analyst Review Queue):**
+        *   Predict probabilities on the holdout set with the `review_model_aucp`.
+        *   Conduct a review capacity (`k`) analysis to create a table showing the trade-offs between `Precision@k`, `Recall@k`, `TP/day`, `FP/day`, `FN/day`, and the total daily costs (including review effort and missed fraud).
+
+5.  **Fraud Risk Action Matrix:**
+    *   Using the scores from the Gate B model and an important business feature (e.g., `max_txn_amt_day`), create the final 2D risk matrix.
+    *   Define score and impact bins.
+    *   Visualize the matrix and document the final decision rules (Block, Review, Pass).
+
+6.  **Documentation and Finalization:**
+    *   Throughout the script, add clear markdown explanations for each step, mirroring the clarity of your original notebooks.
+    *   Conclude with a summary of the recommended `threshold` for Gate A and `k` for Gate B, and present the final Risk Action Matrix.

@@ -83,3 +83,11 @@
 *   `notebooks/`: Interact with `bank_fraud/` modules for analysis and development.
 *   **`bank_fraud/utils/numerical_binning_definitions.py`:** New module containing pre-parsed numerical binning rules for optimized IV calculation.
 *   **Refined Numerical Binning:** Implemented consistent and interpretable binning strategies for numerical features, including fixed-width bins for continuous variables, discrete bins for occurrence counts, and value-based bins for monetary amounts and ratios, with appropriate labeling (e.g., peso signs, percentages).
+
+## Modeling Preprocessing Strategy
+
+*   **Data Splitting:** The dataset will be split into three distinct sets: training, validation, and holdout, to ensure robust model development and unbiased evaluation.
+*   **Preventing Data Leakage:** Preprocessing transformers (e.g., `StandardScaler` for numerical features, `OneHotEncoder` for categorical features) must be handled carefully to prevent data leakage.
+    *   **Fit on Train Only:** The `.fit()` method for any preprocessor must be called *only* on the training dataset. This learns the scaling parameters or encoding mapping from the training data alone.
+    *   **Transform All Sets:** The same fitted preprocessor is then used to `.transform()` the training, validation, and holdout datasets. This ensures that the same transformation logic is applied consistently across all data splits.
+*   **Pipeline Integration:** These steps should be performed within the modeling script/notebook (e.g., `5.0-mjv-model-training-and-evaluation.ipynb`) after the initial data split.
