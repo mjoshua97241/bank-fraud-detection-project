@@ -13,7 +13,7 @@
 *   **IV and WoE calculation code for categorical and numerical features has been refined, ensuring robust column handling, consistent naming, and rounding to 2 decimal places for IV/WoE and 4 for percentages. Detailed IV results for each feature are now saved to individual CSV files in `references/iv_details/`.**
 *   **Columns have been dropped based on IV calculation and feature selection criteria.**
 *   **IV interpretation and reasons in the Markdown table and `get_predictive_power` functions in the feature selection script have been updated.**
-*   **`4.0-mjv-eda-final-features.ipynb` has been initialized, `FEATURE_CATEGORIES` populated, `plot_feature_iv` function implemented, and feature lists refined based on IV for Transaction Size and Frequency, Network Behaviors, Time-Based Behaviors, and Fund Flow Patterns. The `plot_feature_distribution` function now reads IV details from individual CSV files in `references/iv_details/`.**
+*   *   **`4.0-mjv-eda-final-features.ipynb` has been initialized, `FEATURE_CATEGORIES` populated, `plot_feature_iv` function implemented, and feature lists refined based on IV for Transaction Size and Frequency, Network Behaviors, Time-Based Behaviors, and Fund Flow Patterns. The `plot_feature_distribution` function now reads IV details from individual CSV files in `references/iv_details/`. All plots for the final selected features have been generated, and the `plot_feature_distribution` function has been refined to incorporate storytelling with data principles for enhanced clarity and impact, including parameter renaming, x-axis label re-addition, and visual adjustments to spines and labels.**
 
 ## Recent changes
 
@@ -33,18 +33,24 @@
 *   **Created `process_binning_rules.py` in `bank_fraud/utils/` and executed it to pre-process numerical binning rules.**
 *   **Generated `numerical_binning_rules_processed.csv` in `references/`.**
 *   **Integrating pre-processed binning rules into the feature selection script for optimized numerical IV calculation and fixed binning issues.**
+*   **Refined numerical binning definitions in `bank_fraud/utils/numerical_binning_definitions.py` for improved interpretability and consistency, including:**
+    *   **Consistent 5-unit ranges for time-based features (e.g., `txn_days_active_30d`, `active_days_with_txns`).**
+    *   **Discrete binning (0, 1, 2+) for occurrence counts (e.g., `change_email_occurence`, `change_mob_num_occurence`).**
+    *   **Revised monetary amount bins with peso signs (e.g., `amount_INSTAPAY_IN`, `total_amount_in`, `total_amount_out`, `amount_INSTAPAY_OUT`, `amt_from_source`, `amt_to_destination`).**
+    *   **Adjusted count bins (e.g., `count_INSTAPAY_IN`, `count_INSTAPAY_OUT`, `count_total_in`, `count_total_out`).**
+    *   **Refined ratio/percentage bins (e.g., `repeat_counterparty_ratio_in`, `repeat_counterparty_ratio_out`, `top_source_share_in`, `top_destination_share_out`).**
+    *   **Updated unique entity count bins (e.g., `num_unique_source_accounts`, `num_unique_destination_accounts`, `num_unique_destination_names`).**
+    *   **Revised volatility and entropy bins (e.g., `night_txn_count`, `weekend_txn_count`, `hour_entropy`, `txn_velocity_30d`, `txn_count_day_volatility_30d`).**
+*   **Created `mask_iv_details.py` in `bank_fraud/utils/` for masking sensitive IV details, and added it to `.gitignore`.**
+*   **Integrated `mask_iv_details.py` into `3.0-mjv-feature-selection-and-eda.py` to automatically mask sensitive categorical data in IV details CSVs after generation.**
+*   **Completed the generation of all feature distribution plots in `4.0-mjv-eda-final-features.py`, and fixed an issue where bar heights were uniform and labels were missing in the `plot_feature_distribution` function.**
 
 ## Next steps
 
-*   Perform detailed EDA for final features in `4.0-mjv-eda-final-features.ipynb`, categorized by:
-    *   Profile Traits
-    *   Transaction Size and Frequency
-    *   Network Behaviors
-    *   Time-Based Behavors
-    *   Fund Flow Patterns
-*   Create bar graphs based on `categorical_iv_details.csv` and `numerical_iv_details.csv` for the features in each category.
-*   Provide interpretation related to fraud for each bar graph.
-*   Plan the subsequent steps (model training and evaluation, reporting and visualization components).
+*   Analyze the generated plots from `4.0-mjv-eda-final-features.py` to synthesize key insights and fraud patterns.
+*   Document the findings from the EDA.
+*   Plan the subsequent steps for model training and evaluation based on the EDA insights.
+*   Create a new notebook, `5.0-mjv-model-training-and-evaluation.ipynb`, to begin the modeling phase.
 
 ## Active decisions and considerations
 

@@ -19,7 +19,7 @@
 *   **Configuration-driven development:** Centralized configuration in `bank_fraud/config.py`.
 *   **Modular functions:** Breaking down complex tasks into smaller, reusable functions (e.g., in `bank_fraud/features.py`, `bank_fraud/plots.py`).
 *   **Data Dictionary Generation:** Automated metadata generation for features.
-*   **Data Visualization:** Apply principles from Cole Nussbaumer Knaflic's "Storytelling with Data" to create clear, concise, and impactful visualizations, with particular attention to the effective and intentional use of color palettes.
+*   **Data Visualization:** Apply principles from Cole Nussbaumer Knaflic's "Storytelling with Data" to create clear, concise, and impactful visualizations, with particular attention to the effective and intentional use of color palettes. (Refer to `memory_bank/storytelling_with_data_principles.md` for detailed principles).
 *   **Custom Color Palette:** Utilize a predefined custom color palette for all visualizations to ensure consistency and adherence to branding/aesthetic guidelines.
 *   **Markdown in Python Scripts:** Use triple double-quoted strings (`"""..."""`) for multi-line Markdown explanations within Python scripts to facilitate easy copy-pasting.
 
@@ -82,3 +82,4 @@
 *   `bank_fraud/modeling/train.py` & `predict.py`: Utilize features and configurations for model operations.
 *   `notebooks/`: Interact with `bank_fraud/` modules for analysis and development.
 *   **`bank_fraud/utils/numerical_binning_definitions.py`:** New module containing pre-parsed numerical binning rules for optimized IV calculation.
+*   **Refined Numerical Binning:** Implemented consistent and interpretable binning strategies for numerical features, including fixed-width bins for continuous variables, discrete bins for occurrence counts, and value-based bins for monetary amounts and ratios, with appropriate labeling (e.g., peso signs, percentages).
