@@ -91,3 +91,7 @@
     *   **Fit on Train Only:** The `.fit()` method for any preprocessor must be called *only* on the training dataset. This learns the scaling parameters or encoding mapping from the training data alone.
     *   **Transform All Sets:** The same fitted preprocessor is then used to `.transform()` the training, validation, and holdout datasets. This ensures that the same transformation logic is applied consistently across all data splits.
 *   **Pipeline Integration:** These steps should be performed within the modeling script/notebook (e.g., `5.0-mjv-model-training-and-evaluation.ipynb`) after the initial data split.
+*   **Resampling Strategy (Iterative Evaluation):**
+    *   **Initial Focus:** We prioritize a core set of widely-used resampling techniques (`RandomOverSampler`, `SMOTE`, `RandomUnderSampler`) for initial evaluation. This allows for a rapid assessment of whether resampling generally benefits model performance and which direction (over- or under-sampling) is more promising.
+    *   **Computational Efficiency:** This focused approach manages computational overhead, as evaluating every possible resampling technique with every baseline model can be time-consuming.
+    *   **Data-Driven Expansion:** Further exploration of more advanced or specialized resampling methods will only occur if the initial evaluation demonstrates significant potential for improvement, ensuring resources are allocated effectively.

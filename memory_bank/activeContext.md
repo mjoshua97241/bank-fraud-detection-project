@@ -38,8 +38,12 @@
 
 ## Next steps
 
-*   Continue with Phase 5: Implement **Step 3: Model Training and Hyperparameter Tuning** in the `5.0-mjv-model-training-and-evaluation.py` script.
-*   Tune two separate XGBoost models: one for Precision and one for AUC-PR.
+*   Continue with Phase 5: Implement **Step 3: Model Training, Evaluation, and Business Simulation** in the `5.0-mjv-model-training-and-evaluation.py` script.
+    *   **Baseline Model Comparison**: Evaluate various models without resampling to establish a performance baseline.
+    *   **Resampling Evaluation**: Apply different resampling techniques (under- and over-sampling) and re-evaluate models to determine if resampling improves performance on key metrics (Precision, AUC-PR).
+    *   **Decision Point**: Based on the evaluation, decide whether to incorporate resampling into the final model pipeline.
+    *   **Hyperparameter Tuning**: Tune two separate XGBoost models (one for Precision, one for AUC-PR) on the chosen pipeline (with or without resampling).
+    *   **Cost-Sensitive Evaluation**: Conduct a cost-sensitive evaluation on the holdout set.
 
 ## Active decisions and considerations
 
