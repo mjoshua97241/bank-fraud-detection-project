@@ -35,15 +35,16 @@
 *   **Created `mask_iv_details.py` in `bank_fraud/utils/` for masking sensitive IV details, and added it to `.gitignore`.**
 *   **Integrated `mask_iv_details.py` into `3.0-mjv-feature-selection-and-eda.py` to automatically mask sensitive categorical data in IV details CSVs after generation.**
 *   **Completed the generation of all feature distribution plots in `4.0-mjv-eda-final-features.py`, and fixed an issue where bar heights were uniform and labels were missing in the `plot_feature_distribution` function.**
+*   **Implemented two-stage hyperparameter tuning (RandomizedSearchCV followed by GridSearchCV) for XGBoost models optimized for Precision and AUC-PR, with conditional saving of improved models.**
 
 ## Next steps
 
 *   Continue with Phase 5: Implement **Step 3: Model Training, Evaluation, and Business Simulation** in the `5.0-mjv-model-training-and-evaluation.py` script.
-    *   **Baseline Model Comparison**: Evaluate various models without resampling to establish a performance baseline.
-    *   **Resampling Evaluation**: Apply different resampling techniques (under- and over-sampling) and re-evaluate models to determine if resampling improves performance on key metrics (Precision, AUC-PR).
-    *   **Decision Point**: Based on the evaluation, decide whether to incorporate resampling into the final model pipeline.
-    *   **Hyperparameter Tuning**: Tune two separate XGBoost models (one for Precision, one for AUC-PR) on the chosen pipeline (with or without resampling).
-    *   **Cost-Sensitive Evaluation**: Conduct a cost-sensitive evaluation on the holdout set.
+    *   **Hyperparameter Tuning**: Completed. Two XGBoost models (one optimized for Precision, one for AUC-PR) have been tuned using a two-stage process (RandomizedSearchCV followed by GridSearchCV) and conditionally saved to the `models/` directory.
+    *   **Cost-Sensitive Evaluation**: Conduct a cost-sensitive evaluation on the holdout set using the best-tuned models, incorporating a detailed two-legged business simulation (auto-blocking and analyst review queue) with specific cost assumptions.
+
+## Known issues
+*   **Conditional Hyperparameter Tuning Logic Issue**: The implemented conditional logic for skipping hyperparameter tuning (checking for existing saved models and results) is not functioning as expected; the tuning process still runs even when results are present. This needs to be investigated and fixed.
 
 ## Active decisions and considerations
 
