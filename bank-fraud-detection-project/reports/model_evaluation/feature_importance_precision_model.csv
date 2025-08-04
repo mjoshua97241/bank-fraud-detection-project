@@ -1,0 +1,21 @@
+feature,importance
+num__max_txn_count_day,0.26913005
+cat__card_type_PHYSICAL_CARD,0.1357224
+cat__card_type_VIRTUAL_CARD,0.10942799
+num__total_amount_out,0.044566076
+num__change_mob_num_occurence,0.04042137
+num__max_txn_amt_day,0.029262608
+cat__acc_mgmt_channel_Physical retail channel,0.028929131
+cat__acc_mgmt_channel_Digital mobile channel,0.027880352
+cat__orig_os_KIOSK,0.021929484
+num__change_email_occurence,0.016360305
+num__source_entropy_in,0.009034154
+num__avg_amt_out_day,0.008983693
+num__top_source_share_in,0.008284838
+num__amount_INSTAPAY_IN,0.008000071
+num__min_txn_amt_day,0.0071933107
+num__avg_inflow_outflow_ratio_day,0.0065303226
+num__cv_time_btwn_txns,0.006524706
+num__max_amount_INSTAPAY_IN,0.0065043294
+num__num_unique_source_accounts,0.0062800623
+num__avg_time_btwn_txns_days,0.0062285913

@@ -19,6 +19,7 @@ NOTEBOOKS_DIR = PROJECT_ROOT / 'notebooks'
 MODELS_DIR = PROJECT_ROOT / 'models'
 REPORTS_DIR = PROJECT_ROOT / 'reports'
 REPORTS_FIGURES_DIR = REPORTS_DIR / 'figures'
+REPORTS_MODEL_EVAL_DIR = REPORTS_DIR / 'model_evaluation'
 REFERENCES_DIR = PROJECT_ROOT / 'references'
 
 # --- Specific File Paths (add as needed) ---

@@ -11,8 +11,9 @@
 
 *   **Python:** Primary programming language.
 *   **Pandas/NumPy:** For data manipulation and numerical operations.
-*   **Scikit-learn/XGBoost (TBD):** For machine learning model development.
+*   **Scikit-learn/XGBoost:** For machine learning model development.
 *   **Pathlib:** For robust path management.
+*   **Network Analysis:** Utilize `networkx` for graph manipulation and analysis, and `pyvis` for interactive network visualizations.
 
 ## Design patterns in use
 
@@ -87,6 +88,9 @@
 ## Modeling Preprocessing Strategy
 
 *   **Data Splitting:** The dataset will be split into three distinct sets: training, validation, and holdout, to ensure robust model development and unbiased evaluation.
+*   **Data Splitting Method:** The project employs a **stratified train-test split** for model training and evaluation.
+    *   **Rationale:** This method was chosen over a time-based split due to the extreme rarity of the fraud class. Initial attempts at time-based splitting resulted in cross-validation folds with zero fraud instances, which prevented the calculation of key performance metrics and broke the hyperparameter tuning process.
+    *   **Benefit:** Stratified splitting guarantees a stable evaluation environment by maintaining a consistent class distribution across all data subsets.
 *   **Preventing Data Leakage:** Preprocessing transformers (e.g., `StandardScaler` for numerical features, `OneHotEncoder` for categorical features) must be handled carefully to prevent data leakage.
     *   **Fit on Train Only:** The `.fit()` method for any preprocessor must be called *only* on the training dataset. This learns the scaling parameters or encoding mapping from the training data alone.
     *   **Transform All Sets:** The same fitted preprocessor is then used to `.transform()` the training, validation, and holdout datasets. This ensures that the same transformation logic is applied consistently across all data splits.
@@ -95,3 +99,4 @@
     *   **Initial Focus:** We prioritize a core set of widely-used resampling techniques (`RandomOverSampler`, `SMOTE`, `RandomUnderSampler`) for initial evaluation. This allows for a rapid assessment of whether resampling generally benefits model performance and which direction (over- or under-sampling) is more promising.
     *   **Computational Efficiency:** This focused approach manages computational overhead, as evaluating every possible resampling technique with every baseline model can be time-consuming.
     *   **Data-Driven Expansion:** Further exploration of more advanced or specialized resampling methods will only occur if the initial evaluation demonstrates significant potential for improvement, ensuring resources are allocated effectively.
+*   **Model Interpretation with SHAP:** In addition to standard feature importance, the project uses **SHAP (SHapley Additive exPlanations)** to provide a deeper, instance-level understanding of model predictions. This is crucial for explaining the behavior of the final models and ensuring they are making decisions based on logical patterns. The detailed interpretation is stored in `reports/model_evaluation/SHAP_Model_Interpretation.md`.

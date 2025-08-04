@@ -18,25 +18,33 @@
 *   New Jupyter Notebook workflow adopted: read `.ipynb`, edit `.py`.
 *   **Numerical binning rules have been pre-processed and saved to `numerical_binning_rules_processed.csv` for optimized IV calculation.**
 *   **Pre-processed numerical binning rules have been successfully integrated into the feature selection script, optimizing numerical IV calculation and addressing binning issues.**
-*   **Refined numerical binning definitions in `bank_fraud/utils/numerical_binning_definitions.py` for improved interpretability and consistency, including consistent 5-unit ranges for time-based features, discrete binning (0, 1, 2+) for occurrence counts, revised monetary amount bins with peso signs, adjusted count bins, refined ratio/percentage bins, updated unique entity count bins, and revised volatility and entropy bins.**
+*   **Refined numerical binning definitions in `bank_fraud/utils/numerical_binning_definitions.py` for improved interpretability and consistency.**
 *   **Created `mask_iv_details.py` in `bank_fraud/utils/` for masking sensitive IV details, and added it to `.gitignore`.**
-*   **Updated IV interpretation and reasons in the Markdown table and `get_predictive_power` functions in the feature selection script.**
 *   **Integrated `mask_iv_details.py` into `3.0-mjv-feature-selection-and-eda.py` to automatically mask sensitive categorical data in IV details CSVs after generation.**
-*   **Completed correlation analysis for categorical and numerical features, dropped highly correlated numerical features, and refined the analysis and decision section by removing redundant information.**
+*   **Completed correlation analysis for categorical and numerical features, dropped highly correlated numerical features, and refined the analysis and decision section.**
+*   **Completed EDA on final features in `4.0-mjv-eda-final-features.ipynb`.**
+*   **Completed two-stage hyperparameter tuning for both Precision and AUC-PR optimized XGBoost models.**
+*   **The modeling script (`5.0-mjv-model-training-and-evaluation.py`) now includes robust, granular checkpoints for each tuning stage.**
+*   **Completed evaluation of the final tuned models on the holdout set and conducted a cost-sensitive business simulation.**
+*   **Documented the complete tuning and evaluation analysis within the modeling script.**
+*   **Robust Business Simulation Script:** The business simulation in `5.0-mjv-model-training-and-evaluation.py` now saves its results, preventing the need to re-run the simulations.
+*   **Completed SHAP analysis and created a dedicated interpretation report (`SHAP_Model_Interpretation.md`) in `reports/model_evaluation/`.**
+*   **Initiated network analysis phase by creating the `6.0-mjv-network-analysis.ipynb` notebook.**
 
 ## What's left to build
 
-*   **`4.0-mjv-eda-final-features.ipynb` has been initialized, its `FEATURE_CATEGORIES` dictionary populated with refined feature lists, the `plot_feature_iv` function implemented, and all detailed EDA plots for final features have been generated. The `plot_feature_distribution` function has been refined to incorporate storytelling with data principles for enhanced clarity and impact, including parameter renaming, x-axis label re-addition, and visual adjustments to spines and labels.**
-*   Train and evaluate machine learning models.
-*   Develop reporting and visualization components.
-*   (Add more specific tasks as the project progresses)
+*   **Complete Network Analysis:** Construct and analyze the transaction graph to identify fraud rings and patterns.
+*   **Develop the final project report and presentation materials.**
+*   **Create final, polished visualizations for reporting.**
 
 ## Current status
 
-*   **Setup Phase:** Core project structure and data pipeline are complete.
-*   **Data Understanding & Preparation:** Complete. Final dataset for modeling is located in `data/processed`.
+*   **Setup Phase:** Complete.
+*   **Data Understanding & Preparation:** Complete.
 *   **Detailed EDA:** Complete.
-*   **Modeling Phase:** In progress. The script `5.0-mjv-model-training-and-evaluation.py` has been created. Data loading, splitting, and the preprocessing pipeline construction are complete. The project is ready for model tuning.
+*   **Modeling Phase:** Complete.
+*   **Network Analysis Phase:** In progress.
+*   **Reporting and Finalization Phase:** Pending completion of network analysis.
 
 ## Known issues
 
