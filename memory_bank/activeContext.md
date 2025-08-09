@@ -13,9 +13,11 @@
 
 ## Next steps
 
-*   **Load and Process Transaction Data:** Ingest the raw transaction data to create an edge list for the network graph.
-*   **Construct and Visualize Fraud Network:** Build the initial graph focusing on transactions involving known fraudsters and generate an interactive visualization.
-*   **Analyze Network Structure:** Perform centrality analysis and community detection to uncover key actors and hidden fraud rings.
+*   **Load and Preprocess Network Data:** Load the transaction data from `df_network.csv`, parse dates, and clean column names.
+*   **Build Interactive Marimo Tool:** Develop a reactive notebook using Marimo to serve as an interactive analysis tool.
+*   **Implement Dynamic Filtering:** Add UI controls (sliders for amount, dropdowns for transaction type) to allow analysts to filter the network in real-time.
+*   **Visualize Network Structure:** Render the graph using `pyvis`, with node size representing its degree (number of connections) to highlight network hubs.
+*   **Add Analytical Overlays:** Incorporate community detection and centrality metrics to uncover suspicious clusters and influential nodes within the graph.
 
 ## Active decisions and considerations
 

@@ -34,9 +34,9 @@
 *   **Notebooks for Exploration:** Use Jupyter notebooks in the `notebooks` directory for exploratory data analysis and prototyping. Refactor any reusable code into Python modules in the `src` directory.
 *   **Autoreload in Notebooks:** Use the `%autoreload` magic command in notebooks to automatically reload modules as they are updated.
 *   **Code Reviews:** For code reviews, commit both the `.ipynb` notebook file and an exported `.py` script to ensure that the code can be reviewed without needing to run the notebook.
-*   **Jupyter Notebook Workflow:**
-    *   **Reading:** Read `.ipynb` files directly to understand their content.
-    *   **Editing/Writing:** Only modify the `.py` version of the notebook, which are stored in `notebooks/to_be_deleted/py_version/`. The user will manually copy the content from these `.py` files to update the `.ipynb` files.
+*   **Notebook Workflow:**
+    *   **Legacy (Jupyter - Notebooks 1.0 to 5.0):** For code reviews, commit both the `.ipynb` notebook file and an exported `.py` script to ensure that the code can be reviewed without needing to run the notebook.
+    *   **Current (Marimo - Notebooks 6.0 onwards):** For new analyses, use Marimo, the reactive notebook environment. Notebooks are saved directly as `.py` files in the `notebooks/` directory, eliminating the need for `.ipynb` files and manual syncing. Development is done via the `marimo edit` command. **Note that global variable names must be unique across all cells; a variable cannot be reassigned in a different cell, which enforces a clearer data flow.**
 
 ## Data Handling Strategies
 
