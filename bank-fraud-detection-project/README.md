@@ -24,7 +24,7 @@ This project developed a comprehensive and scalable bank fraud detection system,
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+├── notebooks          <- Jupyter notebooks, Marimo files. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`. These notebooks follow a structured EDA process, emphasizing robust data quality checks and feature selection using metrics like Information Value (IV).
 │
