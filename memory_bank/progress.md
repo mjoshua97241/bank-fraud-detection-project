@@ -36,6 +36,7 @@
 *   **Complete Network Analysis:** Construct and analyze the transaction graph to identify fraud rings and patterns.
 *   **Develop the final project report and presentation materials.**
 *   **Create final, polished visualizations for reporting.**
+*   **Automate Pipeline:** Create a comprehensive `Makefile` to run the entire data processing and modeling pipeline.
 
 ## Current status
 
