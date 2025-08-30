@@ -110,9 +110,6 @@ Building upon the current system, potential future enhancements for this project
 *   **Advanced Anomaly Detection:** Exploring advanced deep learning models for more sophisticated anomaly detection.
 *   **Expanded Fraud Typologies:** Expanding the system to cover additional fraud typologies and patterns.
 
-## Research Paper / Methodology Document
-A detailed methodology document (akin to a science paper) explaining the project's approach, challenges, and impact, without revealing confidential data or proprietary code, is currently being prepared and will be linked here once published. This document serves as a comprehensive overview for understanding the project's depth and your problem-solving skills.
-
 ## Contact
 *   Email: vargas.michaeljoshua@gmail.com
 *   LinkedIn: https://www.linkedin.com/in/mljosh/
